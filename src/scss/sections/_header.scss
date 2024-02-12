@@ -1,4 +1,5 @@
 .header {
+    position: relative;
     padding-top: 43px;
     padding-bottom: 106px;
     background-color: var(--header-bg);
@@ -18,8 +19,6 @@
 .header__badge {
     margin-bottom: 30px;
 }
-
-
 
 .header__title {
     margin-bottom: 31px;
@@ -48,4 +47,11 @@
         border-radius: 50%;
         box-shadow: 0px 0px 24px 4px rgba(98, 208, 196, 0.56);
     }
+}
+
+.header__widget {
+    position: absolute;
+    bottom: -50%;
+    right: 50%;
+    transform: translate(110%, -80%);
 }
