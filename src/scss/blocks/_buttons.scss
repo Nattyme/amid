@@ -1,0 +1,22 @@
+.btn {
+    padding-left: 39px;
+    padding-right: 39px;
+    height: 57px;
+    border-radius: 32px;
+
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 57px;
+    color: #fff;
+}
+
+.btn--login {
+    background-color: var(--accent-second);
+    transition: opacity 0.2s ease-in;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}
