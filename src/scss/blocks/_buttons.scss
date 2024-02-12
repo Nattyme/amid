@@ -1,4 +1,5 @@
 .btn {
+    display: inline-block;
     padding-left: 39px;
     padding-right: 39px;
     height: 57px;
@@ -9,6 +10,10 @@
     letter-spacing: 0.05em;
     line-height: 57px;
     color: #fff;
+}
+
+.btn--solid {
+    background-color: var(--accent);
 }
 
 .btn--login {

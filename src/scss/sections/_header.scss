@@ -1,0 +1,45 @@
+.header {
+    padding-top: 43px;
+    background-color: var(--header-bg);
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header__text {
+    padding-top: 19px;
+    max-width: 570px;
+}
+
+.header__badge {
+    margin-bottom: 30px;
+}
+
+.badge {}
+
+.header__title {
+    margin-bottom: 31px;
+}
+
+.header__desc {
+    margin-bottom: 51px;
+
+    p + p {
+        margin-top: 10px;
+    }
+}
+
+.header__buttons {}
+
+.header__img {
+    width: 433px;
+    height: 433px;
+    object-fit: cover;
+
+    img {
+        display: block;
+    }
+}
