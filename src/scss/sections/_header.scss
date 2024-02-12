@@ -33,7 +33,10 @@
     }
 }
 
-.header__buttons {}
+.header__buttons {
+    display: flex;
+    column-gap: 55px;
+}
 
 .header__img {
     width: 433px;

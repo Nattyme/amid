@@ -10,22 +10,47 @@
     letter-spacing: 0.05em;
     line-height: 57px;
     color: #fff;
+
+    cursor: pointer;
+    transition: opacity 0.2s ease-in;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.btn--login {
+    background-color: var(--accent-second);
 }
 
 .btn--solid {
     background-color: var(--accent);
 }
 
-.btn--outline {
-    
-}
+.btn-outline {
+    position: relative;
+    padding-left: 55px;
+    padding-right: 36px;
+    height: 57px;
 
-.btn--login {
-    background-color: var(--accent-second);
-    transition: opacity 0.2s ease-in;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #ff823b;
 
-    &:hover {
-        cursor: pointer;
-        opacity: 0.9;
+    &::before {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        
+        content: url("./../img/icons/header/play.svg");
+        width: 39px;
+        height: 39px;
+
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 24px 0 #d6e2e1;
+        line-height: 39px;
     }
 }
