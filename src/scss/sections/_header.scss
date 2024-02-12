@@ -1,5 +1,6 @@
 .header {
     padding-top: 43px;
+    padding-bottom: 106px;
     background-color: var(--header-bg);
 }
 
@@ -11,14 +12,14 @@
 
 .header__text {
     padding-top: 19px;
-    max-width: 570px;
+    max-width: 600px;
 }
 
 .header__badge {
     margin-bottom: 30px;
 }
 
-.badge {}
+
 
 .header__title {
     margin-bottom: 31px;
@@ -27,7 +28,7 @@
 .header__desc {
     margin-bottom: 51px;
 
-    p + p {
+    p+p {
         margin-top: 10px;
     }
 }
@@ -41,5 +42,7 @@
 
     img {
         display: block;
+        border-radius: 50%;
+        box-shadow: 0px 0px 24px 4px rgba(98, 208, 196, 0.56);
     }
 }
