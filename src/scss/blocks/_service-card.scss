@@ -1,6 +1,14 @@
 .service-card {
-    width: 350px;
-    height: 302px;
+    display: block;
+    width: 364px;
+    height: 415px;
+    padding: 50px 34px 45px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: #fff;
+        box-shadow: 0 20px 84px 0 rgba(245, 245, 245, 0.8);
+    }
 }
 
 .service-card__img {
@@ -12,11 +20,10 @@
 }
 
 .service-card__title {
-    margin-bottom: 34px;
+    margin-bottom: 20px;
 }
 
 .service-card__desc {
-    padding-right: 5px;
     height: 81px;
 
     font-family: var(--font-third);
@@ -25,5 +32,4 @@
     color: var(--text-color);
 }
 
-.service-card__btn {
-}
+.service-card__btn {}

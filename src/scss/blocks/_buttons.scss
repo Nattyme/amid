@@ -27,7 +27,7 @@
     background-color: var(--accent);
 }
 
-.btn-outline {
+.btn-video {
     position: relative;
     padding-left: 55px;
     padding-right: 36px;
@@ -43,7 +43,7 @@
         top: 50%;
         left: 0;
         transform: translateY(-50%);
-        
+
         content: url("./../img/icons/header/play.svg");
         width: 39px;
         height: 39px;
@@ -53,4 +53,28 @@
         box-shadow: 0 0 24px 0 #d6e2e1;
         line-height: 39px;
     }
+}
+
+.btn-outline {
+    width: 203px;
+    height: 57px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    column-gap: 14px;
+
+    border-radius: 31px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #124f48;
+
+    transition: all 0.2s ease;
+}
+
+.service-card:hover .btn-outline {
+    justify-content: center;
+    background-color: #ff823b;
+    color: #fff;
 }
