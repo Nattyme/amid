@@ -2,10 +2,10 @@
     position: relative;
     padding-top: 43px;
     padding-bottom: 106px;
-    background-color: var(--header-bg);
 }
 
 .header__content {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -26,6 +26,10 @@
 
 .header__desc {
     margin-bottom: 51px;
+    max-width: 428px;
+
+    font-size: 18px;
+    line-height: 1.67;
 
     p+p {
         margin-top: 10px;
@@ -38,14 +42,32 @@
 }
 
 .header__img {
-    width: 433px;
-    height: 433px;
-    object-fit: cover;
+    position: relative;
+    height: 100%;
+}
+
+.header__figure {
 
     img {
-        display: block;
-        border-radius: 50%;
-        box-shadow: 0px 0px 24px 4px rgba(98, 208, 196, 0.56);
+        width: 562px;
+        height: 537px;
+    }
+
+}
+
+.header__hero {
+    position: absolute;
+    content: "";
+    right: 50%;
+    bottom: 0;
+    transform: translateX(81%);
+    width: 900px;
+    height: 673px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
