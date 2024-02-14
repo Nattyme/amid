@@ -744,12 +744,23 @@ body {
   padding-top: 70px;
 }
 
+.cta {
+  padding-top: 156px;
+  padding-bottom: 70px;
+  background-color: #e9fbf9;
+}
+
 .cta__title {
   margin-bottom: 45px;
   margin-left: auto;
   margin-right: auto;
   max-width: 690px;
   text-align: center;
+}
+
+.cta__buttons {
+  display: flex;
+  justify-content: center;
 }
 
 .cta__btn {
@@ -759,12 +770,14 @@ body {
 }
 
 .cta__link {
-  display: inline-block;
-  padding-left: 39px;
-  padding-right: 39px;
+  margin-left: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 26px;
+       column-gap: 26px;
   width: 203px;
   height: 57px;
-  line-height: 57px;
   border-radius: 31px;
   background-color: #ff823b;
   font-weight: 700;

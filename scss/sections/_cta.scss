@@ -1,4 +1,7 @@
 .cta {
+    padding-top: 156px;
+    padding-bottom: 70px;
+    background-color: #e9fbf9;
 }
 
 .cta__title {
@@ -10,6 +13,8 @@
 }
 
 .cta__buttons {
+    display: flex;
+    justify-content: center;
 }
 
 .cta__btn {
@@ -19,12 +24,16 @@
 }
 
 .cta__link {
-    display: inline-block;
-    padding-left: 39px;
-    padding-right: 39px;
+    margin-left: 27px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 26px;
+
     width: 203px;
     height: 57px;
-    line-height: 57px;
+ 
     border-radius: 31px;
     background-color: #ff823b;;
 
