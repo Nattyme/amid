@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>amid</title>
-    <link rel="stylesheet" href="./../libs/owlCarousel2/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link
+      rel="stylesheet"
+      href="./../libs/owlCarousel2/assets/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
+    <!-- header-top -->
     <header class="header-top">
       <div class="container">
         <div class="header-top__row">
@@ -32,7 +36,9 @@
         </div>
       </div>
     </header>
+    <!--// header-top -->
 
+    <!-- header -->
     <div class="header">
       <div class="container">
         <div class="header__content">
@@ -120,7 +126,9 @@
         </div>
       </div>
     </div>
+    <!--// header -->
 
+    <!-- our-clients -->
     <div class="our-clients">
       <div class="container">
         <div class="our-clients__row">
@@ -211,7 +219,9 @@
         </div>
       </div>
     </div>
+    <!--// our-clients -->
 
+    <!-- service -->
     <div class="service">
       <div class="container">
         <div class="service__badge"><span class="badge">services</span></div>
@@ -287,7 +297,10 @@
                 <h3 class="h3">Exceptional Discovery Plans</h3>
               </div>
               <div class="service-card__desc">
-                <p>An exceptional plan can take you ahead millions of step which  we discove</p>
+                <p>
+                  An exceptional plan can take you ahead millions of step which
+                  we discove
+                </p>
               </div>
             </div>
             <a href-="#!" class="btn-outline"
@@ -305,6 +318,9 @@
         <!--// cards row -->
       </div>
     </div>
+    <!--// service -->
+
+    <!-- achievements -->
     <div class="achievements">
       <div class="container">
         <div class="achievements__row">
@@ -397,12 +413,13 @@
         </div>
       </div>
     </div>
+    <!--// achievements -->
 
+    <!-- blog -->
     <div class="blog">
       <div class="container">
-
         <div class="blog__badge">
-            <span class="badge">blog</span>
+          <span class="badge">blog</span>
         </div>
 
         <!-- title -->
@@ -420,82 +437,100 @@
 
         <!-- slider wrapper -->
         <div class="blog__slider">
+          <!-- buttons -->
+          <button class="slider__arrow slider__arrow--left" id="sliderPrev">
+            <img src="./../img/slider/arrow-left.svg" alt="prev" />
+          </button>
+          <button class="slider__arrow slider__arrow--right" id="sliderNext">
+            <img src="./../img/slider/arrow-right.svg" alt="next" />
+          </button>
+          <!--// buttons -->
 
-            <!-- buttons -->
-            <button class="slider__arrow slider__arrow--left" id="sliderPrev">
-                <img src="./../img/slider/arrow-left.svg" alt="prev">
-            </button>
-            <button class="slider__arrow slider__arrow--right" id="sliderNext">
-                <img src="./../img/slider/arrow-right.svg" alt="next">
-            </button>
-            <!--// buttons -->
+          <!-- slider-->
+          <div class="slider owl-carousel owl-theme" id="slider-blog">
+            <!-- slider item -->
+            <a class="slider__item" href="#!">
+              <div class="slider__img">
+                <span class="slider__badge">22 Dec</span>
+                <img src="./../img/slider/01.jpg" alt="news" />
+              </div>
+              <div class="slider__text">
+                <h4 class="slider__title">
+                  Upgrowing Economy Needs More Startups
+                </h4>
 
-            <!-- slider-->
-            <div class="slider owl-carousel owl-theme" id="slider-blog">
+                <div class="slider__desc">
+                  <p>
+                    We understand how desperatly you want to grow in the
+                    business world & our motto is to help you with practicale
+                    idea and plan
+                  </p>
+                </div>
+              </div>
 
-                <!-- slider item -->
-                <a class="slider__item" href="#!">
-                    
-                    <div class="slider__img">
-                        <span class="slider__badge">22 Dec</span>
-                        <img src="./../img/slider/01.jpg" alt="news">
-                    </div>
-                    <div class="slider__text">
-                        <h4 class="slider__title">Upgrowing Economy Needs More Startups</h4>
+              <div class="btn-outline">
+                Learn More
+                <img src="./../img/icons/arrow-right.svg" alt="view more" />
+              </div>
+            </a>
+            <!--// slider item -->
 
-                        <div class="slider__desc">
-                            <p>
-                            We understand how desperatly you want to grow in the
-                            business world & our motto is to help you with practicale
-                            idea and plan
-                            </p>
-                        </div>
-                    </div>
-
-                    
-                    <div class="btn-outline">
-                        Learn More
-                        <img src="./../img/icons/arrow-right.svg" alt="view more">
-                    </div>
-                  
-                    
-                </a>
-                <!--// slider item -->
-                
-                <!-- slider item -->
-                <a class="slider__item" href="#!">
-                    
-                    <div class="slider__img">
-                        <span class="slider__badge">16 Dec</span>
-                        <img src="./../img/slider/02.jpg" alt="news">
-                    </div>
-                    <div class="slider__text">
-                        <h4 class="slider__title">
-                            Team Has Some Unique Feature &ndash; What Yours?
-                        </h4>
-                        <div class="slider__desc">
-                            <p>
-                                We understand how desperatly you want to grow in the business world &amp; our motto is to help you with practicale idea and plan 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="btn-outline">
-                        Learn More
-                        <img src="./../img/icons/arrow-right.svg" alt="view more">
-                    </div>
-                </a>
-                <!--// slider item -->
-
-            </div>
-            <!-- slider wrapper -->
+            <!-- slider item -->
+            <a class="slider__item" href="#!">
+              <div class="slider__img">
+                <span class="slider__badge">16 Dec</span>
+                <img src="./../img/slider/02.jpg" alt="news" />
+              </div>
+              <div class="slider__text">
+                <h4 class="slider__title">
+                  Team Has Some Unique Feature &ndash; What Yours?
+                </h4>
+                <div class="slider__desc">
+                  <p>
+                    We understand how desperatly you want to grow in the
+                    business world &amp; our motto is to help you with
+                    practicale idea and plan
+                  </p>
+                </div>
+              </div>
+              <div class="btn-outline">
+                Learn More
+                <img src="./../img/icons/arrow-right.svg" alt="view more" />
+              </div>
+            </a>
+            <!--// slider item -->
+          </div>
+          <!-- slider wrapper -->
         </div>
         <!--// slider wrapper -->
+      </div>
+    </div>
+    <!--// blog -->
+
+    <!-- cta -->
+    <div class="cta">
+      <div class="container">
+        <!-- header -->
+        <div class="cta__title">
+          <h2 class="h2">Subscribe To Our Newsletter Get The Best Offers</h2>
+        </div>
+        <!--// header -->
+
+        <div class="cta__buttons">
+          <button class="cta__btn">With One Click</button>
+          <a href="#!" class="cta__link">Subscribe</a>
+        </div>
 
       </div>
     </div>
+    <!--// cta -->
+
+    <!-- footer -->
     <footer class="footer">
       <div class="container"><h2>Footer</h2></div>
     </footer>
+    <!--// footer -->
+
     <script src="./../libs/jquery/jquery-3.7.1.min.js"></script>
     <script src="./../libs/owlCarousel2/owl.carousel.min.js"></script>
     <script src="./js/index.bundle.js"></script>

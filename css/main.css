@@ -448,20 +448,17 @@ body {
 
 .slider__item {
   display: inline-block;
-  padding: 30px 4px 19px 20px;
-  width: 511px;
-  height: 594px;
-  padding-top: 30px;
-  padding-right: 4px;
+  width: 520px;
+  height: 649px;
+  padding-bottom: 19px;
   border-radius: 10px;
   background-color: #fff;
   cursor: pointer;
-  transition: box-shadow 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .slider__item:hover {
-  width: 520px;
-  height: 649px;
+  padding-left: 20px;
 }
 .slider__item:hover {
   box-shadow: 20px 24px 114px 0 #f5f5f5;
@@ -473,6 +470,10 @@ body {
   justify-content: center;
   background-color: var(--accent);
   color: #fff;
+}
+.slider__item:hover .slider__img {
+  margin-bottom: 43px;
+  padding-top: 30px;
 }
 .slider__item:hover .slider__img img {
   width: 460px;
@@ -517,6 +518,7 @@ body {
 
 .slider__text {
   margin-bottom: 45px;
+  padding-right: 4px;
 }
 
 .slider__title {
@@ -545,14 +547,6 @@ body {
 
 .slider__arrow--left {
   margin-right: 38px;
-}
-
-.slider .owl-carousel .owl-item {
-  width: unset;
-}
-
-.owl-carousel .owl-item img {
-  width: unset;
 }
 
 /* Sections */
@@ -659,6 +653,10 @@ body {
   height: 103px;
   background-color: #f1faf9;
   border-radius: 10px;
+  transition: background-color 0.2s ease-in;
+}
+.our-clients__list a:hover {
+  background-color: #dbeeff;
 }
 
 .service {
@@ -711,6 +709,10 @@ body {
 .achievements__data-grid {
   margin-bottom: 70px;
   padding-top: 91px;
+}
+
+.blog {
+  padding-bottom: 54px;
 }
 
 .blog__badge {
