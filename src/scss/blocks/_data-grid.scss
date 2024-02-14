@@ -1,0 +1,33 @@
+.data-grid {
+    width: 465px;
+    height: 410px;
+
+    display: grid;
+    grid-template-columns: 83px 162px 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 38px;
+    row-gap: 44px;
+
+    align-items: center;
+}
+
+.data-grid__number {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.22;
+    color: rgba(18, 79, 72, 0.37);
+}
+
+.data-grid__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 144%;
+    color: #124f48;
+}
+
+.data-grid__desc {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.86;
+    color: #ff823b;
+}
