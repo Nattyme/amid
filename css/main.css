@@ -787,16 +787,47 @@ body {
 }
 
 .footer {
-  background-color: rgb(62, 62, 62);
-  padding: 50px 0;
-  font-size: 32px;
-  color: #fff;
+  padding-bottom: 15px;
+  background-color: #e9fbf9;
+  color: #124f48;
 }
-.footer h1 {
-  font-size: 32px;
+
+.footer__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-@media (max-width: 1200px) {
-  .footer {
-    font-size: 26px;
-  }
+
+.footer__logo {
+  margin-bottom: 8px;
+}
+
+.footer__text {
+  font-size: 12px;
+  color: #ff823b;
+}
+.footer__text p + p {
+  margin-top: 5px;
+}
+
+.footer-nav__list {
+  display: flex;
+}
+.footer-nav__list li:not(:last-child) {
+  margin-right: 70px;
+}
+.footer-nav__list a {
+  font-size: 18px;
+  color: #124f48;
+  transition: all 0.2s ease-in;
+}
+.footer-nav__list a:hover {
+  font-weight: 700;
+  color: #ff823b;
+}
+
+.footer-contact__list, .footer-contact__list a {
+  font-size: 18px;
+  line-height: 2;
+  color: #124f48;
 }/*# sourceMappingURL=main.css.map */
