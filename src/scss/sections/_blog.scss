@@ -10,7 +10,6 @@
 }
 
 .blog__desc {
-    margin-bottom: 84px;
     margin-left: auto;
     margin-right: auto;
         
@@ -24,4 +23,9 @@
         color: var(--text-color);
     }
 
+}
+
+.blog__slider {
+    position: relative;
+    padding-top: 70px;
 }

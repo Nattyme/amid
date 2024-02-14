@@ -1,8 +1,6 @@
 <div class="blog">
     <div class="container">
 
-        <!-- header -->
-        
         <!-- badge -->
         <div class="blog__badge">
             <span class="badge">blog</span>
@@ -19,14 +17,24 @@
             <p>We understand how desperatly you want to grow in the business world &amp; our motto is to help you with practicale idea and plan </p>
         </div>
         
-        <!--// header -->
 
-        <!--*** slider ***-->
+          <!-- Slider wrapper  -->
         <div class="blog__slider">
-            <div class="slider">
+
+            <!-- pagination -->
+            <button class="slider__arrow slider__arrow--left" id="sliderPrev">
+                <img src="./../img/slider/arrow-left.svg" alt="prev">
+            </button>
+            <button class="slider__arrow slider__arrow--right" id="sliderNext">
+                <img src="./../img/slider/arrow-right.svg" alt="next">
+            </button>
+
+            <!-- slider -->
+            <a class="slider">
 
                 <!-- slider item -->
-                <div class="slider__item">
+                <a class="slider__item" href="#!">
+                    <div class="slider__link"></div>
                     <span class="slider__badge">22 Dec</span>
 
                     <!-- img -->
@@ -44,14 +52,16 @@
                     </div>
                     <!--// text -->
 
-                    <a class="slider-btn btn-outline">Learn More <img src="./../img/icons/arrow-right.svg" alt="view more"></a>
+                    <div class="btn-outline">Learn More <img src="./../img/icons/arrow-right.svg" alt="view more"></div>
                    
-                </div>
+                </a>
                 <!--// slider item -->
 
-            </div>
+            </a>
+            <!--// slider -->
+
         </div>
-        <!--***// slider ***-->
+          <!--// Slider wrapper  -->
         
     </div>
 </div>

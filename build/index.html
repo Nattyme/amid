@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>amid</title>
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <!--// owl carousel -->
+
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -15,8 +21,6 @@
     <div class="blog">
     <div class="container">
 
-        <!-- header -->
-        
         <!-- badge -->
         <div class="blog__badge">
             <span class="badge">blog</span>
@@ -33,14 +37,24 @@
             <p>We understand how desperatly you want to grow in the business world &amp; our motto is to help you with practicale idea and plan </p>
         </div>
         
-        <!--// header -->
 
-        <!--*** slider ***-->
+          <!-- Slider wrapper  -->
         <div class="blog__slider">
-            <div class="slider">
+
+            <!-- pagination -->
+            <button class="slider__arrow slider__arrow--left" id="sliderPrev">
+                <img src="./../img/slider/arrow-left.svg" alt="prev">
+            </button>
+            <button class="slider__arrow slider__arrow--right" id="sliderNext">
+                <img src="./../img/slider/arrow-right.svg" alt="next">
+            </button>
+
+            <!-- slider -->
+            <a class="slider">
 
                 <!-- slider item -->
-                <div class="slider__item">
+                <a class="slider__item" href="#!">
+                    <div class="slider__link"></div>
                     <span class="slider__badge">22 Dec</span>
 
                     <!-- img -->
@@ -58,14 +72,16 @@
                     </div>
                     <!--// text -->
 
-                    <a class="slider-btn btn-outline">Learn More <img src="./../img/icons/arrow-right.svg" alt="view more"></a>
+                    <div class="btn-outline">Learn More <img src="./../img/icons/arrow-right.svg" alt="view more"></div>
                    
-                </div>
+                </a>
                 <!--// slider item -->
 
-            </div>
+            </a>
+            <!--// slider -->
+
         </div>
-        <!--***// slider ***-->
+          <!--// Slider wrapper  -->
         
     </div>
 </div>
@@ -74,6 +90,15 @@
         <h2>Footer</h2>
     </div>
 </footer>
+
+    <!--*** libs ***-->
+    <!-- jquery -->
+    <script src="./../libs/jquery/jquery-3.7.1.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <!--*** custom js ***-->
     <script src="./js/index.bundle.js"></script>
 </body>
 </html>
