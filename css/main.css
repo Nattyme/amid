@@ -302,8 +302,8 @@ body {
   width: 203px;
   height: 57px;
   display: flex;
-  align-items: center;
   justify-content: left;
+  align-items: center;
   -moz-column-gap: 14px;
        column-gap: 14px;
   border-radius: 31px;
@@ -312,7 +312,12 @@ body {
   letter-spacing: 0.05em;
   color: #124f48;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-in;
+}
+.btn-outline img {
+  width: unset;
+  width: 14px;
+  height: 14px;
 }
 
 .service-card {
@@ -323,12 +328,12 @@ body {
   cursor: pointer;
   transition: all 0.2s ease-in;
 }
+
 .service-card:hover {
   padding-left: 34px;
   background-color: #fff;
   box-shadow: 0 20px 84px 0 rgba(245, 245, 245, 0.8);
 }
-
 .service-card:hover .btn-outline {
   justify-content: center;
   background-color: #ff823b;
@@ -443,16 +448,21 @@ body {
 
 .slider__item {
   display: inline-block;
-  position: relative;
-  width: 520px;
-  height: 649px;
   padding: 30px 4px 19px 20px;
+  width: 511px;
+  height: 594px;
+  padding-top: 30px;
+  padding-right: 4px;
   border-radius: 10px;
   background-color: #fff;
   cursor: pointer;
   transition: box-shadow 0.2s ease-in;
 }
 
+.slider__item:hover {
+  width: 520px;
+  height: 649px;
+}
 .slider__item:hover {
   box-shadow: 20px 24px 114px 0 #f5f5f5;
 }
@@ -464,16 +474,26 @@ body {
   background-color: var(--accent);
   color: #fff;
 }
+.slider__item:hover .slider__img img {
+  width: 460px;
+  height: 300px;
+}
 
 .slider__img {
   margin-bottom: 43px;
-  width: 460px;
-  height: 300px;
+  padding-top: 18px;
+  width: 510px;
+  height: 328px;
+  position: relative;
+  text-align: center;
   overflow: hidden;
 }
 .slider__img img {
-  width: 460px;
-  height: 300px;
+  width: 510px;
+  height: 328px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.2s ease-in;
   pointer-events: none;
 }
 
@@ -525,6 +545,14 @@ body {
 
 .slider__arrow--left {
   margin-right: 38px;
+}
+
+.slider .owl-carousel .owl-item {
+  width: unset;
+}
+
+.owl-carousel .owl-item img {
+  width: unset;
 }
 
 /* Sections */

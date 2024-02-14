@@ -60,17 +60,23 @@
     height: 57px;
 
     display: flex;
-    align-items: center;
     justify-content: left;
+    align-items: center;
     column-gap: 14px;
-
     border-radius: 31px;
+
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.05em;
     color: #124f48;
 
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease-in;
+
+    img { 
+        width: unset;
+        width: 14px;
+        height: 14px;
+    }
 }
 
