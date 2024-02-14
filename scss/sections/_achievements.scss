@@ -6,9 +6,8 @@
     display: flex;
 }
 
-.achievements__column {
-    width: 540px;
-    margin-right: 56px;
+.achievements__column:first-child {
+    margin-right: 36px;
 }
 
 .achievements__badge {
@@ -22,7 +21,4 @@
 .achievements__data-grid {
     margin-bottom: 70px;
     padding-top: 91px;
-}
-
-.achievements__btn {
 }

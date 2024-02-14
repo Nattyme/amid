@@ -1,9 +1,10 @@
 .data-grid {
-    width: 465px;
+    padding-left: 52px;
+    width: 510px;
     height: 410px;
 
     display: grid;
-    grid-template-columns: 83px 162px 1fr;
+    grid-template-columns: 83px 150px auto;
     grid-template-rows: repeat(4, 1fr);
     column-gap: 38px;
     row-gap: 44px;
