@@ -1,0 +1,28 @@
+
+
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+
+/* Blocks */
+@import "./blocks/logo";
+@import "./blocks/nav";
+@import "./blocks/typography";
+@import "./blocks/components";
+@import "./blocks/buttons";
+@import "./blocks/service-card";
+@import "./blocks/achievements-card";
+@import "./blocks/data-grid";
+@import "./blocks/slider";
+
+/* Sections */
+@import "./sections/header-top";
+@import "./sections/header";
+@import "./sections/our-clients";
+@import "./sections//service";
+@import "./sections/achievements";
+@import "./sections/blog";
+@import "./sections/footer.scss";

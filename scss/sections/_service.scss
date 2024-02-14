@@ -1,0 +1,27 @@
+.service {
+    padding-bottom: 160px;
+}
+
+.service__header {
+    margin-bottom: 70px;
+
+    display: flex;
+    align-items: center;
+}
+
+.service__title {
+    max-width: 524px;
+}
+
+.service__desc {
+    margin-left: 111px;
+
+    max-width: 428px;
+    font-size: 18px;
+    line-height: 1.67;
+    color: var(--text-color);
+}
+
+.service-card__row {
+    display: flex;
+}
