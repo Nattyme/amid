@@ -1,0 +1,24 @@
+.achievements-card {}
+
+.achievements-card__img {
+    margin-bottom: 35px;
+
+    width: 511px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.achievements-card__text {
+    margin-bottom: 45px;
+}
+
+.achievements-card__title {
+    margin-bottom: 35px;
+}
+
+
+.achievements-card__desc {
+    font-size: 18px;
+    line-height: 2;
+    color: var(--text-color);
+}
