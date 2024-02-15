@@ -1,5 +1,5 @@
 .service-card {
-    padding: 50px 34px 45px 0;
+    padding: 50px 46px 45px 0;
     display: block;
     width: 364px;
     height: 415px;
@@ -39,6 +39,11 @@
 
 .service-card__title {
     margin-bottom: 20px;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical; // Если конец тсроки обрезан, то добавляет многоточие
+    -webkit-line-clamp: 1; // Ограничиваем кол-во строк текста
+    overflow: hidden;
 }
 
 .service-card__desc {
@@ -47,4 +52,9 @@
     font-family: var(--font-third);
     font-size: 18px;
     line-height: 2;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical; // Если конец тсроки обрезан, то добавляет многоточие
+    -webkit-line-clamp: 2; // Ограничиваем кол-во строк текста
+    overflow: hidden;
 }
