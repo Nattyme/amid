@@ -559,8 +559,16 @@ body {
 
 .header-top__row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  width: 1094px;
+}
+
+.header-top__logo {
+  margin-right: 153px;
+}
+
+.header-top__btn {
+  margin-left: auto;
 }
 
 .header {
@@ -569,7 +577,7 @@ body {
   padding-bottom: 106px;
   height: 724px;
   background-image: url("./../../img/rec.svg");
-  background-position: 35% center;
+  background-position: center center;
   background-size: calc(var(--container-width) * 1.16) 100%;
   background-repeat: no-repeat;
   border-radius: 30px;

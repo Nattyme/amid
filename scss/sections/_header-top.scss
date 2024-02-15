@@ -5,6 +5,14 @@
 
 .header-top__row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    width: 1094px;
+}
+
+.header-top__logo {
+    margin-right: 153px;
+}
+
+.header-top__btn {
+    margin-left: auto;
 }
