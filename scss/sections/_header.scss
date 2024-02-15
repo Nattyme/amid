@@ -1,14 +1,7 @@
 .header {
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 106px;
     height: 724px;
 
-    background-image: url("./../../img/rec.svg");
-    background-position: center center; // x y
-    background-size: calc(var(--container-width) * 1.16) 100%;
-    background-repeat: no-repeat;
-    border-radius: 30px;
 }
 
 .header__widget {

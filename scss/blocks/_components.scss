@@ -1,14 +1,9 @@
 .color-figure {
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-46%);
-    width: calc(var(--container-width) + 225px);
-    height: 100%;
-
+    background-image: url("./../../img/rec.svg");
+    background-position: center center; // x y
+    background-size: calc( var(--container-width) + 1.6) 100%;
+    background-repeat: no-repeat;
     border-radius: 30px;
-    background-color: var(--header-bg);
 }
 
 .badge {

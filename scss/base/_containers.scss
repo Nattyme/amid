@@ -4,3 +4,19 @@
     margin: 0 auto;
 }
 
+.container-wide {
+    padding: 0 var(--container-padding);
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container-figure {
+    padding: 0 var(--container-padding);
+    padding-top: 50px;
+    padding-bottom: 106px;
+    margin: 0 auto;
+    max-width: 1349px;
+    height: 724px;
+
+}
+
