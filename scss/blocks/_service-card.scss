@@ -3,13 +3,13 @@
     display: block;
     width: 364px;
     height: 415px;
-
-    &:not(:last-child)  {
-        margin-right: 15px;
-    }
    
     cursor: pointer;
     transition: all 0.2s ease-in;
+
+    &:not(:last-child) {
+        margin-right: 16px;
+    }
 }
 
 .service-card:hover {
