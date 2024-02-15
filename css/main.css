@@ -333,16 +333,21 @@ body {
 }
 
 .service-card {
-  padding: 50px 46px 45px 0;
+  padding: 50px 25px 45px 0;
   display: block;
   width: 364px;
   height: 415px;
   cursor: pointer;
   transition: all 0.2s ease-in;
 }
+.service-card:not(:last-child) {
+  margin-right: 15px;
+}
 
 .service-card:hover {
-  padding-left: 34px;
+  padding-left: 30px;
+  width: 364px;
+  height: 415px;
   background-color: #fff;
   box-shadow: 0 20px 84px 0 rgba(245, 245, 245, 0.8);
 }
@@ -356,7 +361,7 @@ body {
 }
 
 .service-card__img {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
   width: 80px;
   height: 80px;
   border-radius: 20px;
@@ -365,11 +370,11 @@ body {
 }
 
 .service-card__text {
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 
 .service-card__title {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
