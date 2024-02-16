@@ -3,7 +3,7 @@
     display: block;
     width: 364px;
     height: 415px;
-   
+
     cursor: pointer;
     transition: all 0.2s ease-in;
 
@@ -39,11 +39,26 @@
 
 .service-card__img {
     margin-bottom: 27px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80px;
     height: 80px;
+    background-color: #dbffe9;
     border-radius: 20px;
     overflow: hidden;
+
     transition: box-shadow 0.1s ease-in;
+
+    &--clip {
+        background-color: #fff7ca;
+    }
+
+    &--pie {
+        background-color: #ffe9e0;
+    }
+
 }
 
 .service-card__text {

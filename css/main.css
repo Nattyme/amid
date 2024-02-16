@@ -391,11 +391,21 @@ body {
 
 .service-card__img {
   margin-bottom: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 80px;
   height: 80px;
+  background-color: #dbffe9;
   border-radius: 20px;
   overflow: hidden;
   transition: box-shadow 0.1s ease-in;
+}
+.service-card__img--clip {
+  background-color: #fff7ca;
+}
+.service-card__img--pie {
+  background-color: #ffe9e0;
 }
 
 .service-card__text {
