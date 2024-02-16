@@ -899,11 +899,16 @@ body {
   color: #ff823b;
 }
 
-.footer-contact__list,
-.footer-contact__list a {
+.footer-contact__list {
   font-size: 18px;
   line-height: 2;
+}
+.footer-contact__list a {
   color: #124f48;
+  transition: all 0.2s ease-in;
+}
+.footer-contact__list a:hover {
+  color: #ff823b;
 }
 
 .footer-bottom {

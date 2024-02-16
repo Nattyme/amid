@@ -43,10 +43,18 @@
     }
 }
 
-.footer-contact__list,
-.footer-contact__list a {
+.footer-contact__list {
     font-size: 18px;
     line-height: 2;
-    color: #124f48;
+
+    a {
+        color: #124f48;
+        transition: all 0.2s ease-in;
+
+        &:hover {
+            color: #ff823b;
+        }
+    }
+ 
 }
 
