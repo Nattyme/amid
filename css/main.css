@@ -317,12 +317,15 @@ body {
   transition: all 0.2s ease-in;
 }
 .btn-solid:hover {
-  opacity: 0.9;
+  background-color: #124f48;
 }
 .btn-solid--login {
   padding-left: 39px;
   padding-right: 39px;
   background-color: #124f48;
+}
+.btn-solid--login:hover {
+  background-color: #ff823b;
 }
 .btn-solid--view-more {
   padding-left: 36px;

@@ -48,13 +48,17 @@
     transition: all 0.2s ease-in;
 
     &:hover {
-        opacity: 0.9;
+        background-color: #124f48;
     }
 
     &--login {
         padding-left: 39px;
         padding-right: 39px; 
         background-color: #124f48;
+    }
+
+    &--login:hover {
+        background-color: #ff823b;
     }
 
     &--view-more {
