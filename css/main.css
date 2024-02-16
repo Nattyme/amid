@@ -349,15 +349,15 @@ body {
   letter-spacing: 0.05em;
   color: #124f48;
   background-color: #fff;
-  transition: all 0.2s ease-in;
+  transition: all 0.1s ease-in;
 }
 .btn-outline svg {
   stroke: #124F48;
-  transition: all 0.2s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .service-card {
-  padding: 50px 25px 45px 0;
+  padding: 50px 25px 45px 30px;
   display: block;
   width: 364px;
   height: 415px;
@@ -369,9 +369,6 @@ body {
 }
 
 .service-card:hover {
-  padding-left: 30px;
-  width: 364px;
-  height: 415px;
   background-color: #fff;
   box-shadow: 0 20px 84px 0 rgba(245, 245, 245, 0.8);
 }
