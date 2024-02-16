@@ -352,7 +352,7 @@ body {
   letter-spacing: 0.05em;
   color: #124f48;
   background-color: #fff;
-  transition: color 0.1s ease, background-color 0.3s ease-in;
+  transition: color 0.1s ease, background-color 0.3s ease;
 }
 .btn-outline svg {
   stroke: #124F48;
@@ -487,16 +487,19 @@ body {
 }
 
 .data-grid {
-  padding-left: 59px;
   width: 510px;
   height: 410px;
+}
+
+.data-grid li {
   display: grid;
   grid-template-columns: 83px 150px auto;
-  grid-template-rows: repeat(4, 1fr);
   -moz-column-gap: 38px;
        column-gap: 38px;
-  row-gap: 44px;
   align-items: center;
+}
+.data-grid li:not(:last-child) {
+  margin-bottom: 44px;
 }
 
 .data-grid__number {
@@ -801,6 +804,7 @@ body {
 
 .achievements__data-grid {
   margin-bottom: 70px;
+  padding-left: 59px;
   padding-top: 91px;
 }
 

@@ -1,15 +1,17 @@
 .data-grid {
-    padding-left: 59px;
     width: 510px;
     height: 410px;
+}
 
+.data-grid li {
     display: grid;
     grid-template-columns: 83px 150px auto;
-    grid-template-rows: repeat(4, 1fr);
     column-gap: 38px;
-    row-gap: 44px;
-
     align-items: center;
+
+    &:not(:last-child) {
+        margin-bottom: 44px;
+    }
 }
 
 .data-grid__number {
