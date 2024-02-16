@@ -260,6 +260,22 @@ body {
   border-radius: 20px;
 }
 
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.socials li:not(:last-child) {
+  margin-right: 30px;
+}
+.socials a {
+  opacity: 0.51;
+  transition: opacity 0.2s ease-in;
+}
+.socials a:hover {
+  opacity: 1;
+}
+
 .btn-video {
   position: relative;
   padding-left: 55px;
@@ -433,6 +449,10 @@ body {
   width: 206px;
 }
 
+.achievements-card:not(:last-child) {
+  margin-bottom: 45px;
+}
+
 .achievements-card__img {
   margin-bottom: 35px;
   width: 511px;
@@ -465,10 +485,6 @@ body {
 }
 .achievements-card__img--lightBg img {
   box-shadow: 0 34px 80px 0 rgba(80, 153, 145, 0.24);
-}
-
-.achievements-card__text {
-  margin-bottom: 45px;
 }
 
 .achievements-card__title {
@@ -835,7 +851,7 @@ body {
 
 .cta {
   padding-top: 156px;
-  padding-bottom: 70px;
+  padding-bottom: 35px;
   background-color: #e9fbf9;
 }
 
@@ -863,9 +879,10 @@ body {
 }
 
 .footer {
-  padding-bottom: 15px;
+  padding-top: 35px;
+  padding-bottom: 70px;
+  color: #124F48;
   background-color: #e9fbf9;
-  color: #124f48;
 }
 
 .footer__row {
@@ -902,8 +919,28 @@ body {
   color: #ff823b;
 }
 
-.footer-contact__list, .footer-contact__list a {
+.footer-contact__list,
+.footer-contact__list a {
   font-size: 18px;
   line-height: 2;
   color: #124f48;
+}
+
+.footer-bottom {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background-color: #124F48;
+  color: #fff;
+}
+
+.footer-bottom__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-bottom__copyright {
+  font-size: 18px;
+  color: #fff;
+  font-family: var(--font-secondary);
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,20 @@
+.footer-bottom {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background-color: #124F48;
+    color: #fff;
+}
+
+.footer-bottom__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom__copyright {
+    font-size: 18px;
+    color: #fff;
+    font-family: var(--font-secondary);
+}
+
+.footer-bottom__socials {}

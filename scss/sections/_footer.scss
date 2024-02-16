@@ -1,8 +1,8 @@
 .footer {
-    padding-bottom: 15px;
-
+    padding-top: 35px;
+    padding-bottom: 70px;
+    color: #124F48;
     background-color: #e9fbf9;
-    color: #124f48;
 }
 
 .footer__row {
@@ -19,12 +19,9 @@
     font-size: 12px;
     color: #ff823b;
 
-    p + p {
+    p+p {
         margin-top: 5px;
     }
-}
-
-.footer-nav {
 }
 
 .footer-nav__list {
@@ -46,11 +43,10 @@
     }
 }
 
-.footer-contact {
-}
-
-.footer-contact__list, .footer-contact__list a {
+.footer-contact__list,
+.footer-contact__list a {
     font-size: 18px;
     line-height: 2;
     color: #124f48;
 }
+
