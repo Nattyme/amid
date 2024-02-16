@@ -27,7 +27,10 @@
     }
 }
 
-.btn {
+.btn-solid {
+    padding-left: 39px;
+    padding-right: 39px; 
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,6 +44,29 @@
     font-size: 18px;
     letter-spacing: 0.05em;
     color: #fff;
+
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        opacity: 0.9;
+    }
+
+    &--login {
+        padding-left: 39px;
+        padding-right: 39px; 
+        background-color: #124f48;
+    }
+
+    &--view-more {
+        padding-left: 36px;
+        padding-right: 36px;
+        column-gap: 12px;
+    }
+
+    &--subscribe {
+        padding-right: 35px;
+        column-gap: 26px;
+    }
 }
 
 .btn-outline {
@@ -60,38 +86,10 @@
 
     svg {
         stroke: #124F48;
-    }
-
-    &:hover {
-        justify-content: center;
-        padding-left: 39px;
-        padding-right: 35px;
-
-        background-color: #ff823b;
-        color: #fff;
-
-        svg {
-            stroke: #fff;
-        }
+        transition: all 0.2s ease-in;
     }
 }
 
-.btn--solid {
-    padding-left: 39px;
-    padding-right: 39px; 
-}
-
-.btn--login {
-    padding-left: 39px;
-    padding-right: 39px; 
-    background-color: #124f48;
-}
-
-.btn--view-more {
-    padding-left: 36px;
-    padding-right: 36px;
-    column-gap: 12px;
-}
 
 .btn-slider:hover {
     display: flex;
@@ -111,12 +109,5 @@
     color: #fff;
 }
 
-.btn--subscribe {
-    height: 57px;
-    padding-left: 39px;
-    padding-right: 35px;
-
-    column-gap: 26px;
-}
 
 

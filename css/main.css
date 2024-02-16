@@ -300,7 +300,9 @@ body {
   line-height: 39px;
 }
 
-.btn {
+.btn-solid {
+  padding-left: 39px;
+  padding-right: 39px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -312,6 +314,26 @@ body {
   font-size: 18px;
   letter-spacing: 0.05em;
   color: #fff;
+  transition: all 0.2s ease-in;
+}
+.btn-solid:hover {
+  opacity: 0.9;
+}
+.btn-solid--login {
+  padding-left: 39px;
+  padding-right: 39px;
+  background-color: #124f48;
+}
+.btn-solid--view-more {
+  padding-left: 36px;
+  padding-right: 36px;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.btn-solid--subscribe {
+  padding-right: 35px;
+  -moz-column-gap: 26px;
+       column-gap: 26px;
 }
 
 .btn-outline {
@@ -331,34 +353,7 @@ body {
 }
 .btn-outline svg {
   stroke: #124F48;
-}
-.btn-outline:hover {
-  justify-content: center;
-  padding-left: 39px;
-  padding-right: 35px;
-  background-color: #ff823b;
-  color: #fff;
-}
-.btn-outline:hover svg {
-  stroke: #fff;
-}
-
-.btn--solid {
-  padding-left: 39px;
-  padding-right: 39px;
-}
-
-.btn--login {
-  padding-left: 39px;
-  padding-right: 39px;
-  background-color: #124f48;
-}
-
-.btn--view-more {
-  padding-left: 36px;
-  padding-right: 36px;
-  -moz-column-gap: 12px;
-       column-gap: 12px;
+  transition: all 0.2s ease-in;
 }
 
 .btn-slider:hover {
@@ -375,14 +370,6 @@ body {
   font-size: 18px;
   letter-spacing: 0.05em;
   color: #fff;
-}
-
-.btn--subscribe {
-  height: 57px;
-  padding-left: 39px;
-  padding-right: 35px;
-  -moz-column-gap: 26px;
-       column-gap: 26px;
 }
 
 .service-card {
@@ -405,9 +392,14 @@ body {
   box-shadow: 0 20px 84px 0 rgba(245, 245, 245, 0.8);
 }
 .service-card:hover .btn-outline {
+  padding-left: 39px;
+  padding-right: 35px;
   justify-content: center;
   background-color: #ff823b;
   color: #fff;
+}
+.service-card:hover .btn-outline svg {
+  stroke: #fff;
 }
 .service-card:hover .service-card__img svg {
   box-shadow: 30px 44px 84px 0 rgba(208, 211, 231, 0.31);
@@ -558,6 +550,9 @@ body {
   justify-content: center;
   background-color: var(--accent);
   color: #fff;
+}
+.slider__item:hover .btn-outline svg {
+  stroke: #fff;
 }
 .slider__item:hover .slider__img {
   margin-bottom: 43px;

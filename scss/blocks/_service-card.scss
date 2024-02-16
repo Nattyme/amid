@@ -21,9 +21,15 @@
     box-shadow: 0 20px 84px 0 rgba(245, 245, 245, 0.8);
 
     .btn-outline {
+        padding-left: 39px;
+        padding-right: 35px;
         justify-content: center;
         background-color: #ff823b;
         color: #fff;
+
+        svg {
+            stroke: #fff;
+        }
     }
 
     .service-card__img svg {
