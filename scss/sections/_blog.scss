@@ -3,13 +3,12 @@
 }
 
 .blog__badge {
-    padding-bottom: 54px;
     margin-bottom: 25px;
     text-align: center;
 }
 
 .blog__title {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -21,10 +20,8 @@
     text-align: center;
 
     p {
-        font-weight: 400;
         font-size: 18px;
         line-height: 1.67;
-        color: var(--text-color);
     }
 
 }

@@ -8,7 +8,7 @@
     position: absolute;
     bottom: -50%;
     right: 50%;
-    transform: translate(105%, -89%);
+    transform: translate(107%, -89%);
 }
 
 .header__hero {
@@ -25,13 +25,21 @@
         object-fit: contain;
     }
 
-    &::before {
+    &::after {
         z-index: -1;
-        content: url("./../img/Circle.svg");
+        content: url("./../img/header/circle.svg");
         position: absolute;
         top: 0;
         left: 50%;
-        transform: translate(-43%,-10%);
+        transform: translateX(-41%);
+    }
+
+    &::before {
+        content: url("./../img/header/dots.svg");
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(24%, -4%)
     }
 }
 

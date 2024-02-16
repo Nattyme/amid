@@ -1,31 +1,3 @@
-.btn {
-    display: inline-block;
-    padding-left: 39px;
-    padding-right: 39px;
-    height: 57px;
-    border-radius: 32px;
-
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.05em;
-    line-height: 57px;
-    color: #fff;
-
-    cursor: pointer;
-    transition: opacity 0.2s ease-in;
-
-    &:hover {
-        opacity: 0.9;
-    }
-}
-
-.btn--login {
-    background-color: var(--accent-second);
-}
-
-.btn--solid {
-    background-color: var(--accent);
-}
 
 .btn-video {
     position: relative;
@@ -55,28 +27,96 @@
     }
 }
 
-.btn-outline {
-    width: 203px;
-    height: 57px;
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    height: 57px;
+    line-height: 57px;
+    border-radius: 31px;
+    background-color: #ff823b;
+
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.btn-outline {
     display: flex;
     justify-content: left;
     align-items: center;
-    column-gap: 14px;
+    column-gap: 10px;
+    height: 57px;
     border-radius: 31px;
 
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.05em;
     color: #124f48;
-
-    cursor: pointer;
+    background-color: #fff;
     transition: all 0.2s ease-in;
 
-    img { 
-        width: unset;
-        width: 14px;
-        height: 14px;
+    svg {
+        stroke: #124F48;
+    }
+
+    &:hover {
+        justify-content: center;
+        padding-left: 39px;
+        padding-right: 35px;
+
+        background-color: #ff823b;
+        color: #fff;
+
+        svg {
+            stroke: #fff;
+        }
     }
 }
+
+.btn--solid {
+    padding-left: 39px;
+    padding-right: 39px; 
+}
+
+.btn--login {
+    padding-left: 39px;
+    padding-right: 39px; 
+    background-color: #124f48;
+}
+
+.btn--view-more {
+    padding-left: 36px;
+    padding-right: 36px;
+    column-gap: 12px;
+}
+
+.btn-slider:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 14px;
+
+    height: 57px;
+    padding-left: 39px;
+    padding-right: 35px;
+
+    border-radius: 31px;
+
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.btn--subscribe {
+    height: 57px;
+    padding-left: 39px;
+    padding-right: 35px;
+
+    column-gap: 26px;
+}
+
 

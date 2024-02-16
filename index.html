@@ -36,15 +36,17 @@
           </nav>
           <!--// navigation -->
 
+          <!-- btn -->
           <div class="header-top__btn">
-            <a class="btn btn--login">Login</a>
+            <a class="btn btn--login" href="#!">Login</a>
           </div>
+          <!--// btn -->
         </div>
       </div>
     </header>
     <!--// header-top -->
 
-    <!-- header -->
+    <!--*** header ***-->
     <div class="header">
 
         <!-- color figure bg -->
@@ -54,22 +56,32 @@
                 <!-- main content -->
                 <div class="header__content">
                     <div class="header__text">
+
+                        <!-- badge -->
                         <div class="header__badge">
-                        <span class="badge">it works!</span>
+                            <span class="badge">it works!</span>
                         </div>
+                        <!--// badge -->
+
+                        <!-- title -->
                         <div class="header__title">
-                        <h1 class="h1">Try Our Business Ideas to grow Rapidly</h1>
+                            <h1 class="h1">Try Our Business Ideas to grow Rapidly</h1>
                         </div>
+                         <!--// title -->
+
                         <div class="header__desc">
-                        <p>
-                            We understand how desperatly you want to grow in the business
-                            world & our motto is to help you with practicale idea and plan
-                        </p>
+                            <p>
+                                We understand how desperatly you want to grow in the business
+                                world & our motto is to help you with practicale idea and plan
+                            </p>
                         </div>
+
+                        <!-- btn -->
                         <div class="header__buttons">
-                        <a href="#!" class="btn btn--solid">Get Started</a>
-                        <button class="btn-video"><span>DEMO VIDEO</span></button>
+                            <a href="#!" class="btn btn--solid">Get Started</a>
+                            <button class="btn-video"><span>DEMO VIDEO</span></button>
                         </div>
+                        <!--// btn -->
                     </div>
                     <div class="header__img">
                         <div class="header__figure">
@@ -80,7 +92,7 @@
 
                 <!-- hero img -->
                 <div class="header__hero">
-                    <img src="./../img/header/hero.png" alt="">
+                    <img src="./../img/header/hero.png" alt="hero">
                 </div>
                 <!-- hero img -->
 
@@ -137,7 +149,7 @@
     </div>
     <!--// header -->
 
-    <!-- our-clients -->
+    <!--*** our-clients ***-->
     <div class="our-clients">
       <div class="container-wide">
 
@@ -159,9 +171,9 @@
         </div>
       </div>
     </div>
-    <!--// our-clients -->
+    <!--***// our-clients ***-->
 
-    <!-- service -->
+    <!--*** service ***-->
     <div class="service">
       <div class="container-wide">
 
@@ -209,10 +221,16 @@
               </div>
             </div>
 
-            <a href-="#!" class="btn-outline"
-              >Learn More
-              <img src="./../img/icons/arrow-right.svg" alt="view more">
-            </a>
+            <div class="service-card__btn">
+                <a href-="#!" class="btn-outline">
+                    Learn More
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 8H15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 1L19 8L12 15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+            
           </div>
           <!--// card -->
 
@@ -232,10 +250,15 @@
               </div>
             </div>
 
-            <a href-="#!" class="btn-outline">
-              Learn More
-              <img src="./../img/icons/arrow-right.svg" alt="view more">
-            </a>
+            <div class="service-card__btn">
+                <a href-="#!" class="btn-outline">
+                    Learn More
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 8H15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 1L19 8L12 15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
           </div>
           <!--// card -->
 
@@ -258,10 +281,15 @@
               </div>
             </div>
 
-            <a href-="#!" class="btn-outline">
-                Learn More
-                <img src="./../img/icons/arrow-right.svg" alt="view more">
-            </a>
+            <div class="service-card__btn">
+                <a href-="#!" class="btn-outline">
+                    Learn More
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 8H15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 1L19 8L12 15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
           </div>
           <!--// card -->
 
@@ -270,9 +298,9 @@
 
       </div>
     </div>
-    <!--// service -->
+    <!--***// service ***-->
 
-    <!-- achievements -->
+    <!--*** achievements ***-->
     <div class="achievements">
       <div class="container-wide">
 
@@ -317,10 +345,12 @@
             <!--// card -->
 
             <!-- btn -->
-            <a href="#!" class="btn btn--solid">
-                View More Work
-                <img src="./../img/icons/arrow-right-active.svg" alt="view more">
-            </a>
+            <div class="achievements-card__btn">
+                <a href="#!" class="btn btn--view-more">
+                    View More Work
+                    <img src="./img/icons/arrow-right-light.svg" alt="view more">
+                </a>
+            </div>
             <!-- // btn -->
           </div>
           <!--// column -->
@@ -450,6 +480,7 @@
 
           <!-- slider-->
           <div class="slider owl-carousel owl-theme" id="slider-blog">
+
             <!-- slider item -->
             <a class="slider__item" href="#!">
               <div class="slider__img">
@@ -470,37 +501,50 @@
                 </div>
               </div>
 
-              <div class="btn-outline">
-                Learn More
-                <img src="./../img/icons/arrow-right.svg" alt="view more" />
+              <div class="slider__btn">
+                <span class="btn-outline">
+                    Learn More
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 8H15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 1L19 8L12 15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
               </div>
             </a>
             <!--// slider item -->
 
             <!-- slider item -->
             <a class="slider__item" href="#!">
-              <div class="slider__img">
-                <span class="slider__badge">16 Dec</span>
-                <img src="./../img/slider/02.jpg" alt="news" />
-              </div>
-              <div class="slider__text">
-                <h4 class="slider__title">
-                  Team Has Some Unique Feature &ndash; What Yours?
-                </h4>
-                <div class="slider__desc">
-                  <p>
-                    We understand how desperatly you want to grow in the
-                    business world &amp; our motto is to help you with
-                    practicale idea and plan
-                  </p>
+                <div class="slider__img">
+                  <span class="slider__badge">22 Dec</span>
+                  <img src="./../img/slider/02.jpg" alt="news" />
                 </div>
-              </div>
-              <div class="btn-outline">
-                Learn More
-                <img src="./../img/icons/arrow-right.svg" alt="view more" />
-              </div>
+                <div class="slider__text">
+                  <h4 class="slider__title">
+                    Team Has Some Unique Feature - What Yours?
+                  </h4>
+  
+                  <div class="slider__desc">
+                    <p>
+                      We understand how desperatly you want to grow in the
+                      business world & our motto is to help you with practicale
+                      idea and plan
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="slider__btn">
+                  <span class="btn-outline">
+                      Learn More
+                      <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 8H15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M12 1L19 8L12 15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </span>
+                </div>
             </a>
             <!--// slider item -->
+
           </div>
           <!-- slider wrapper -->
         </div>
@@ -520,11 +564,15 @@
 
         <!-- btn -->
         <div class="cta__buttons">
-          <button class="cta__btn">With One Click</button>
-          <a href="#!" class="cta__link">
-            Subscribe
-            <img src="./img/icons/arrow-right-active.svg" alt="subscribe">
-          </a>
+            <button class="cta__btn">With One Click</button>
+            
+            <div class="cta__link">
+                <a href="#!" class="btn btn--subscribe">
+                    Subscribe
+                    <img src="./img/icons/arrow-right-light.svg" alt="subscribe">
+                </a>
+            </div>
+          
         </div>
         <!--// btn -->
 
