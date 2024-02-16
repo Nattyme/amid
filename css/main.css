@@ -842,12 +842,13 @@ body {
   text-align: center;
 }
 
-.cta__buttons {
+.cta__button {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.cta__btn {
+.cta__text {
   font-size: 18px;
   color: #ff823b;
   font-family: var(--font-secondary);
