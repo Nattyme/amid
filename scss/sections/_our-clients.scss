@@ -8,19 +8,14 @@
     flex-wrap: wrap;
     gap: 30px;
 
-    a {
+    li {
         display: flex;
         justify-content: center;
         align-items: center;
+        
         width: 255px;
         height: 103px;
         background-color: #f1faf9;
         border-radius: 10px;
-
-        transition: background-color 0.2s ease-in;
-
-        &:hover {
-            background-color: #dbeeff;
-        }
     }
 }
