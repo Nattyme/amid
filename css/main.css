@@ -352,7 +352,7 @@ body {
   letter-spacing: 0.05em;
   color: #124f48;
   background-color: #fff;
-  transition: color 0.1s ease, background-color 0.3s ease;
+  transition: color 0.1s ease, background-color 0.1s ease;
 }
 .btn-outline svg {
   stroke: #124F48;
@@ -435,13 +435,17 @@ body {
   width: 206px;
 }
 
+.achievements-card {
+  width: 511px;
+}
+
 .achievements-card:not(:last-child) {
   margin-bottom: 45px;
 }
 
 .achievements-card__img {
   margin-bottom: 35px;
-  width: 511px;
+  width: 100%;
   height: 600px;
   border-radius: 20px;
   overflow: hidden;
@@ -474,7 +478,7 @@ body {
 }
 
 .achievements-card__title {
-  margin-bottom: 35px;
+  margin-bottom: 37px;
 }
 
 .achievements-card__desc {
@@ -487,32 +491,34 @@ body {
 }
 
 .data-grid {
-  width: 510px;
+  margin-left: auto;
+  width: 465px;
   height: 410px;
 }
 
 .data-grid li {
+  padding: 14px 0;
   display: grid;
-  grid-template-columns: 83px 150px auto;
+  grid-template-columns: 83px 162px 1fr;
   -moz-column-gap: 38px;
        column-gap: 38px;
   align-items: center;
 }
 .data-grid li:not(:last-child) {
-  margin-bottom: 44px;
+  margin-bottom: 30px;
 }
 
 .data-grid__number {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.4;
+  line-height: 1.44;
   color: rgba(18, 79, 72, 0.37);
 }
 
 .data-grid__title {
   font-weight: 500;
   font-size: 18px;
-  line-height: 1;
+  line-height: 1.44;
   color: #124f48;
 }
 
@@ -672,6 +678,7 @@ body {
   transform: translateX(81%);
   width: 900px;
   height: 673px;
+  pointer-events: none;
 }
 .header__hero img {
   width: 100%;
@@ -757,7 +764,7 @@ body {
 }
 
 .service {
-  padding-bottom: 160px;
+  padding-bottom: 158px;
 }
 
 .service__header {
@@ -788,10 +795,12 @@ body {
 
 .achievements__row {
   display: flex;
+  -moz-column-gap: 56px;
+       column-gap: 56px;
 }
 
 .achievements__column:first-child {
-  margin-right: 36px;
+  width: 540px;
 }
 
 .achievements__badge {
@@ -799,13 +808,12 @@ body {
 }
 
 .achievements__title {
-  margin-bottom: 140px;
+  margin-bottom: 133px;
 }
 
 .achievements__data-grid {
   margin-bottom: 70px;
-  padding-left: 59px;
-  padding-top: 91px;
+  padding-top: 94px;
 }
 
 .blog {

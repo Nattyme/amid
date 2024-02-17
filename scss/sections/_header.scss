@@ -19,6 +19,8 @@
     width: 900px;
     height: 673px;
 
+    pointer-events: none;
+
     img {
         width: 100%;
         height: 100%;
@@ -85,7 +87,3 @@
     position: relative;
     height: 100%;
 }
-
-
-
-
