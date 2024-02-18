@@ -19,12 +19,20 @@
     .btn-outline {
         padding-left: 39px;
         padding-right: 35px;
-        justify-content: center;
         background-color: #ff823b;
         color: #fff;
 
         svg {
             stroke: #fff;
+        }
+
+        .btn-outline::before,
+        .btn-outline::after {
+            transform: translateX(-50%);
+        }
+
+        .btn-outline::after {
+            content: url("./../img/icons/arrow-right-light.svg");
         }
     }
 

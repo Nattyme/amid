@@ -73,23 +73,37 @@
 }
 
 .btn-outline {
+    position: relative;
     display: flex;
-    justify-content: left;
     align-items: center;
     column-gap: 10px;
     height: 57px;
     border-radius: 31px;
 
     font-weight: 700;
-    font-size: 18px;
+    // font-size: 18px;
+    font-size: 0;
     letter-spacing: 0.05em;
     color: #124f48;
     background-color: #fff;
 
-    transition: color 0.1s ease, background-color 0.1s ease;
+    transition: all 0.2s ease-in;
 
     svg {
         stroke: #124F48;
         transition: stroke 0.1s ease;
+    }
+
+    &::before {
+        display: inline-block;
+        content: "Learn More";
+        font-size: 18px;
+    }
+
+    &:after {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        content: url("./../img/icons/arrow-right.svg");
     }
 }
