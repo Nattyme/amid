@@ -4,6 +4,8 @@ $(document).ready(function(){
     const owl = $('#slider-blog');
     // Запускаем карусель
     owl.owlCarousel({
+        margin:60,
+        autoWidth:true,
         items: 2,
         loop: true
     });
