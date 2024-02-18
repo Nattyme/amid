@@ -6,6 +6,7 @@ $(document).ready(function(){
     owl.owlCarousel({
         margin:60,
         autoWidth:true,
+        smartSpeed: 2000,
         items: 2,
         loop: true
     });
