@@ -920,8 +920,8 @@ body {
   transition: all 0.2s ease-in;
 }
 .footer-nav__list a:hover {
-  font-weight: 700;
   color: #ff823b;
+  text-shadow: -0.2px 0 0 #ff823b;
 }
 
 .footer-contact__list {
