@@ -339,34 +339,33 @@ body {
 }
 
 .btn-outline {
-  position: relative;
   display: flex;
   align-items: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
   height: 57px;
+  padding-left: 35px;
+  padding-right: 35px;
   border-radius: 31px;
+  background-color: #fff;
   font-weight: 700;
-  font-size: 0;
+  font-size: 18px;
   letter-spacing: 0.05em;
   color: #124f48;
-  background-color: #fff;
+  transform: translateX(-17%);
   transition: all 0.2s ease-in;
 }
 .btn-outline svg {
   stroke: #124F48;
   transition: stroke 0.1s ease;
 }
-.btn-outline::before {
-  display: inline-block;
-  content: "Learn More";
-  font-size: 18px;
+
+.btn-outline:hover {
+  background-color: #FF823B;
+  color: #fff;
 }
-.btn-outline:after {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  content: url("./../img/icons/arrow-right.svg");
+.btn-outline:hover svg {
+  stroke: #fff;
 }
 
 .service-card {
@@ -386,20 +385,12 @@ body {
   box-shadow: 0 20px 84px 0 rgba(245, 245, 245, 0.8);
 }
 .service-card:hover .btn-outline {
-  padding-left: 39px;
-  padding-right: 35px;
+  transform: translateX(0);
   background-color: #ff823b;
   color: #fff;
 }
 .service-card:hover .btn-outline svg {
   stroke: #fff;
-}
-.service-card:hover .btn-outline .btn-outline::before,
-.service-card:hover .btn-outline .btn-outline::after {
-  transform: translateX(-50%);
-}
-.service-card:hover .btn-outline .btn-outline::after {
-  content: url("./../img/icons/arrow-right-light.svg");
 }
 .service-card:hover .service-card__img svg {
   box-shadow: 30px 44px 84px 0 rgba(208, 211, 231, 0.31);
