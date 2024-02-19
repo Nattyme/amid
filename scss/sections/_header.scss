@@ -5,8 +5,9 @@
 
 .header__widget {
     position: absolute;
-    bottom: 0;
+    bottom: 45px;
     right: 50%;
+    transform: translateX(100%);
 }
 
 .header__content {
@@ -47,7 +48,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(24%, -4%)
+        transform: translate(23%, -4%)
     }
 }
 
@@ -80,9 +81,4 @@
 .header__buttons {
     display: flex;
     column-gap: 55px;
-}
-
-.header__img {
-    position: relative;
-    height: 100%;
 }
