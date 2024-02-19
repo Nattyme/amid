@@ -3,7 +3,7 @@
     .header-top {
         padding-top: 30px;
         padding-bottom: 40px;
-    } 
+    }
 
     .header-top__row {
         width: unset;
@@ -14,17 +14,21 @@
     }
 
     .nav {
-    display: none;
+        display: none;
     }
 
     .btn-solid {
         display: none;
-        
+
         padding-left: 30px;
         padding-right: 30px;
-    
+
         height: 45px;
         line-height: 45px;
         font-size: 16px;
+    }
+
+    .nav-icon {
+        display: flex;
     }
 }

@@ -195,6 +195,64 @@ body {
   width: 29px;
 }
 
+.nav-mobile {
+  display: none;
+}
+
+.nav-icon {
+  width: 40px;
+  height: 25px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-icon__middle {
+  position: relative;
+  width: 40px;
+  height: 5px;
+  background-color: rgb(0, 0, 0);
+}
+.nav-icon__middle::before, .nav-icon__middle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 5px;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+  background-color: rgb(0, 0, 0);
+}
+.nav-icon__middle::before {
+  top: -10px;
+}
+.nav-icon__middle::after {
+  top: 10px;
+}
+
+/* Active state */
+.nav-icon.nav-icon--active {
+  z-index: 6;
+  position: fixed;
+  top: 33px;
+  right: 12px;
+}
+
+.nav-icon.nav-icon--active .nav-icon__middle {
+  background-color: transparent;
+}
+.nav-icon.nav-icon--active .nav-icon__middle::before, .nav-icon.nav-icon--active .nav-icon__middle::after {
+  top: 0;
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+  background-color: rgb(0, 0, 0);
+}
+.nav-icon.nav-icon--active .nav-icon__middle::before {
+  transform: rotate(45deg);
+}
+.nav-icon.nav-icon--active .nav-icon__middle::after {
+  transform: rotate(-45deg);
+}
+
 .h1 {
   font-weight: 800;
   font-size: 64px;
@@ -970,5 +1028,8 @@ body {
     height: 45px;
     line-height: 45px;
     font-size: 16px;
+  }
+  .nav-icon {
+    display: flex;
   }
 }/*# sourceMappingURL=main.css.map */
