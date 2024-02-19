@@ -1,4 +1,28 @@
 /* Tablet */
 @media (max-width: 1199px) {
+    .header-top {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    } 
+
+    .header-top__row {
+        width: unset;
+    }
+
+    .header-top__logo {
+        margin-right: 0;
+    }
+
+    .nav {
+    display: none;
+    }
+
+    .btn-solid {
+        padding-left: 30px;
+        padding-right: 30px;
     
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
 }
