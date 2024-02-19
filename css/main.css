@@ -652,6 +652,7 @@ body {
 
 .header-top__logo {
   margin-right: 153px;
+  display: inline-block;
 }
 
 .header-top__btn {
@@ -963,6 +964,7 @@ body {
     display: none;
   }
   .btn-solid {
+    display: none;
     padding-left: 30px;
     padding-right: 30px;
     height: 45px;
