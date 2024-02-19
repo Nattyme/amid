@@ -1,7 +1,7 @@
 // Ширина и высота линии в иконке
 $lineWidth: 40px;
 $lineHeight: 5px;
-$color: rgb(0, 0, 0);
+$color: #124f48;
 
 // Размеры контейнера
 $width: $lineWidth;
@@ -47,8 +47,8 @@ $height: $lineHeight * 5;
 .nav-icon.nav-icon--active {
     z-index: 6;
     position: fixed;
-    top: 33px;
-    right: 12px;
+    top: 35px;
+    right: 15px;
 }
 
 .nav-icon.nav-icon--active .nav-icon__middle {

@@ -2,6 +2,11 @@ $(document).ready(function(){
 
     // Находим блок с слайдерами
     const owl = $('#slider-blog');
+    const prev = $('#sliderPrev');
+    const next = $('#sliderNext');
+    const navIcon = document.querySelector(".nav-icon");
+    const nav = document.querySelector(".nav-mobile");
+
     // Запускаем карусель
     owl.owlCarousel({
         margin:60,
@@ -10,10 +15,6 @@ $(document).ready(function(){
         items: 2,
         loop: true
     });
-
-    // Находим кастомные кнопки вперед/назад
-    const prev = $('#sliderPrev');
-    const next = $('#sliderNext');
 
     // Клик на кнопку назад и прокрутка карусели
     prev.click(function(){
@@ -24,4 +25,13 @@ $(document).ready(function(){
     next.click(function(){
         owl.trigger('next.owl.carousel')
     });
+
+    /****** Мобильная навигация и кнопка ******/
+    navIcon.addEventListener("click", function () {
+    this.classList.toggle("nav-icon--active");
+    nav.classList.toggle("nav-mobile--active");
+    // bodyEl.classList.toggle("lock");
+    });
+
+
   });
