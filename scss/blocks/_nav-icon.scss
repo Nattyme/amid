@@ -12,8 +12,8 @@ $height: $lineHeight * 5;
     height: $height;
 
     display: none;
-	justify-content: center;
-	align-items: center;
+    justify-content: center;
+    align-items: center;
 
     cursor: pointer;
 }
@@ -24,7 +24,8 @@ $height: $lineHeight * 5;
     height: $lineHeight;
     background-color: $color;
 
-    &::before, &::after {
+    &::before,
+    &::after {
         content: "";
         position: absolute;
         left: 0;
@@ -47,14 +48,15 @@ $height: $lineHeight * 5;
 .nav-icon.nav-icon--active {
     z-index: 6;
     position: fixed;
-    top: 35px;
-    right: 15px;
+    top: 30px;
+    right: 80px;
 }
 
 .nav-icon.nav-icon--active .nav-icon__middle {
     background-color: transparent;
 
-    &::before, &::after {
+    &::before,
+    &::after {
         top: 0;
         transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
         background-color: $color;
