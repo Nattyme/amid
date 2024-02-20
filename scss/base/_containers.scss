@@ -6,6 +6,15 @@
     @media (max-width: 1199px) {
         width: 900px;
     }
+
+    @media (max-width: 899px) {
+        width: 768px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        width: 100%;
+    }
 }
 
 .container-wide {

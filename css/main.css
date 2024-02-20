@@ -143,10 +143,21 @@ body {
   padding: 0 var(--container-padding);
   max-width: var(--container-width);
   margin: 0 auto;
+  /* Mobile XS */
 }
 @media (max-width: 1199px) {
   .container {
     width: 900px;
+  }
+}
+@media (max-width: 899px) {
+  .container {
+    width: 768px;
+  }
+}
+@media (max-width: 599px) {
+  .container {
+    width: 100%;
   }
 }
 
