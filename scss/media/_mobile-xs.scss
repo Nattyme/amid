@@ -1,4 +1,10 @@
 /* Mobile XS */
 @media (max-width: 599px) {
-    
+    .nav-mobile {
+        align-items: center;
+    }
+
+    .nav-icon.nav-icon--active {
+        right: 15px;
+    }
 }

@@ -1088,4 +1088,13 @@ body {
   .nav-mobile__nav a:hover {
     color: #ff823b;
   }
+}
+/* Mobile XS */
+@media (max-width: 599px) {
+  .nav-mobile {
+    align-items: center;
+  }
+  .nav-icon.nav-icon--active {
+    right: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */
