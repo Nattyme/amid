@@ -24,12 +24,22 @@
         display: flex;
     }
 
+    .nav-icon.nav-icon--active .nav-icon__middle {
+
+        &::before,
+        &::after {
+            background-color: #fff;
+        }
+    }
+
     .nav-mobile {
         z-index: 5;
         position: fixed;
+
+        padding-top: 100px;
+
         display: flex;
         justify-content: center;
-
         top: 0;
         right: 0;
         left: 0;
@@ -43,4 +53,17 @@
             transform: translateY(0);
         }
     }
+
+    .nav-mobile__nav {
+        text-align: center;
+
+        li {
+            margin-bottom: 25px;
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+
 }
