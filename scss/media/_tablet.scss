@@ -7,28 +7,15 @@
 
     .header-top__row {
         width: unset;
+
     }
 
     .header-top__logo {
-        margin-right: 0;
+        margin: 0;
     }
 
-    .nav {
-        display: none;
+    .header-top__btn {
+        margin-left: 0;
     }
-
-    .btn-solid {
-        display: none;
-
-        padding-left: 30px;
-        padding-right: 30px;
-
-        height: 45px;
-        line-height: 45px;
-        font-size: 16px;
-    }
-
-    .nav-icon {
-        display: flex;
-    }
+   
 }

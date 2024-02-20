@@ -4,4 +4,27 @@
         padding-top: 20px;
         padding-bottom: 30px;
     }
+
+    .nav {
+        display: none;
+    }
+
+    .btn-solid {
+        display: none;
+
+        padding-left: 30px;
+        padding-right: 30px;
+
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+
+    .nav-icon {
+        display: flex;
+    }
+
+    .nav-mobile {
+        
+    }
 }

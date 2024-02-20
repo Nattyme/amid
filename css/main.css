@@ -716,6 +716,7 @@ body {
 .header-top__row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 1094px;
 }
 
@@ -1027,20 +1028,9 @@ body {
     width: unset;
   }
   .header-top__logo {
-    margin-right: 0;
+    margin: 0;
   }
-  .nav {
-    display: none;
-  }
-  .btn-solid {
-    display: none;
-    padding-left: 30px;
-    padding-right: 30px;
-    height: 45px;
-    line-height: 45px;
-    font-size: 16px;
-  }
-  .nav-icon {
-    display: flex;
+  .header-top__btn {
+    margin-left: 0;
   }
 }/*# sourceMappingURL=main.css.map */
