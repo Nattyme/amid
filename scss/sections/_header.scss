@@ -1,20 +1,12 @@
-.header-bg {
-    padding-top: 70px;
-    padding-bottom: 106px;
-    background-image: url('./../img/header/hero@2x.png');
-    background-position: right center; // x y
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .header__content {
     position: relative;
 }
 
 .header__widget {
     position: absolute;
-    right: 209px;
-    bottom: -187px;
+    left: 50%;
+    bottom: -50%;
+    transform: translate(10%, -30%);
 }
 
 .header__text {

@@ -1,0 +1,6 @@
+@mixin bgImage ($name) {
+    background-image: url($name);
+    background-position: right center; // x y
+    background-size: contain;
+    background-repeat: no-repeat;
+}

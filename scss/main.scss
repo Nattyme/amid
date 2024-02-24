@@ -4,6 +4,7 @@
 /* Base */
 @import "./base/reset";
 @import "./base/vars";
+@import "./base/mixins";
 @import "./base/base";
 @import "./base/utils";
 @import "./base/containers";
@@ -32,7 +33,6 @@
 @import "./sections/footer.scss";
 
 /* Media*/
-@import "./media/desk-1325";
 @import "./media/tablet";
 @import "./media/mobile";
 @import "./media/mobile-xs";

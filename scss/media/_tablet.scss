@@ -17,5 +17,14 @@
     .header-top__btn {
         margin-left: 0;
     }
-   
+
+    .header-bg {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        @include bgImage ('./../img/header/hero.png');
+    }
+
+    
+
 }
