@@ -718,28 +718,26 @@ body {
   margin-left: auto;
 }
 
-.header {
+.header-bg {
+  padding-top: 70px;
+  padding-bottom: 106px;
+  background-image: url("./../img/header/hero@2x.png");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header__content {
   position: relative;
-  height: 850px;
 }
 
 .header__widget {
   position: absolute;
-  bottom: 45px;
-  right: 50%;
-  transform: translateX(107%);
-}
-
-.header__content {
-  padding-top: 53px;
-  overflow: hidden;
-  margin-left: 110px;
-  position: relative;
+  right: 0;
+  bottom: 0;
 }
 
 .header__text {
-  padding-top: 20px;
-  position: absolute;
   width: 570px;
 }
 
@@ -759,14 +757,6 @@ body {
 }
 .header__desc p + p {
   margin-top: 10px;
-}
-
-.header__hero {
-  height: 677px;
-  background-image: url("./../img/header/hero@2x.png");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .header__buttons {
