@@ -733,8 +733,8 @@ body {
 
 .header__widget {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 209px;
+  bottom: -187px;
 }
 
 .header__text {
