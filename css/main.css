@@ -141,7 +141,7 @@ body {
 
 .container {
   padding: 0 var(--container-padding);
-  max-width: var(--container-width);
+  max-width: 1145px;
   margin: 0 auto;
   /* Mobile XS */
 }
@@ -162,15 +162,8 @@ body {
 }
 
 .container-wide {
-  padding: 0 var(--container-padding);
-  max-width: 1145px;
   margin: 0 auto;
-}
-
-.container-figure {
-  padding: 0 var(--container-padding);
-  margin: 0 auto;
-  max-width: 1349px;
+  max-width: 1320px;
 }
 
 /* Blocks */
@@ -294,11 +287,7 @@ body {
 }
 
 .color-figure {
-  height: 724px;
-  background-image: url("./../img/header/rectangle.svg");
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-color: #e9fbf9;
   border-radius: 30px;
 }
 
@@ -743,40 +732,9 @@ body {
 
 .header__content {
   padding-top: 53px;
-  width: 1180px;
   overflow: hidden;
   margin-left: 110px;
   position: relative;
-}
-
-.header__hero {
-  position: relative;
-  margin-left: auto;
-  width: 900px;
-  height: 673px;
-  transform: translateX(12%);
-  pointer-events: none;
-}
-.header__hero img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.header__hero::after {
-  z-index: -1;
-  content: url("./../img/header/circle.svg");
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-41%);
-}
-.header__hero::before {
-  content: url("./../img/header/dots.svg");
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(25%, -4%);
 }
 
 .header__text {
@@ -801,6 +759,14 @@ body {
 }
 .header__desc p + p {
   margin-top: 10px;
+}
+
+.header__hero {
+  height: 677px;
+  background-image: url("./../img/header/hero@2x.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header__buttons {
@@ -1018,6 +984,35 @@ body {
 }
 
 /* Media*/
+@media (max-width: 1325px) {
+  .h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.25;
+  }
+  .header__text {
+    padding-top: 15px;
+    width: 470px;
+  }
+  .header__hero {
+    width: 800px;
+    height: 550px;
+    transform: translateX(12%);
+    pointer-events: none;
+  }
+  .header__hero::after {
+    width: 333px;
+    height: 333px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .header__hero::before {
+    width: 444px;
+    height: 473px;
+    top: 0;
+    left: -70px;
+  }
+}
 /* Tablet */
 @media (max-width: 1199px) {
   .header-top {

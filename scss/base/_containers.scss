@@ -1,6 +1,6 @@
 .container {
     padding: 0 var(--container-padding);
-    max-width: var(--container-width);
+    max-width: 1145px;
     margin: 0 auto;
 
     @media (max-width: 1199px) {
@@ -18,14 +18,10 @@
 }
 
 .container-wide {
-    padding: 0 var(--container-padding);
-    max-width: 1145px;
     margin: 0 auto;
+    max-width: 1320px;
+    
 }
 
-.container-figure {
-    padding: 0 var(--container-padding);
-    margin: 0 auto;
-    max-width: 1349px;
-}
+
 
