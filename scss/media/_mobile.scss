@@ -108,7 +108,6 @@
         font-size: 16px;
     }
 
-
     .header__widget {
         bottom: -20%;
         transform: translate(10%, 0);
@@ -119,8 +118,6 @@
         width: 200px;
         height: 200px;
     }
-
-    .header__buttons {}
 
     .btn-solid,
     .btn-video {
@@ -134,25 +131,4 @@
     }
 }
 
-@media (max-width: 727px) {
-    .header-bg {
-        padding-bottom: 15px;
-        background-position: right bottom;
-        background-size: 300px auto;
-    }
 
-    .header__widget {
-        bottom: -10%;
-        transform: translate(60%, 0);
-    }
-
-    .header__buttons {
-        column-gap: 20px;
-    }
-
-    .widget {
-        padding: 25px 20px;
-        width: 150px;
-        height: 150px;
-    }
-}

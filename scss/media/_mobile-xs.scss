@@ -1,7 +1,7 @@
 /* Mobile XS */
-@media (max-width: 599px) {
+@media (max-width: 727px) {
     .h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .nav-mobile {
@@ -24,7 +24,7 @@
         background-position: center 110%;
         background-size: 320px auto;
 
-       
+
     }
 
     .header__text {
@@ -70,12 +70,6 @@
     }
 
     .header__widget {
-        bottom: -150%;
-        transform: translate(-45%, 0);
-    }
-
-    .widget {
-        width: 130px;
-        height: 130px;
+        display: none;
     }
 }
