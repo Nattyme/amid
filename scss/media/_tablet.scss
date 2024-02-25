@@ -1,5 +1,9 @@
 /* Tablet */
 @media (max-width: 1199px) {
+    .h1 {
+        font-size: 50px;
+    }
+
     .header-top {
         padding-top: 30px;
         padding-bottom: 40px;
@@ -20,11 +24,42 @@
 
     .header-bg {
         padding-top: 50px;
-        padding-bottom: 50px;
-
+        padding-bottom: 80px;
+        
         @include bgImage ('./../img/header/hero.png');
+        background-size: 500px auto;
+        background-position: right bottom;
     }
 
-    
+    .header__widget {
+        bottom: -40%;
+        transform: translate(10%, 0);
+    }
+
+    .header__text {
+        width: 450px;
+    }
+
+    .header__badge {
+        margin-bottom: 20px;
+    }
+
+    .header__title {
+        margin-bottom: 30px;
+    }
+
+    .header__desc {
+        margin-bottom: 40px;
+    }
+
+    .header__buttons {
+        column-gap: 45px;
+    }
+
+    .widget {
+        padding: 35px 30px;
+        width: 290px;
+        height: 290px;
+    }
 
 }

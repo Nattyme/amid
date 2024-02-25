@@ -316,8 +316,8 @@ body {
 
 .widget {
   padding: 45px 40px;
-  width: 314px;
-  height: 314px;
+  width: 315px;
+  height: 315px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -739,6 +739,7 @@ body {
 }
 
 .header__text {
+  padding-top: 20px;
   width: 570px;
 }
 
@@ -751,7 +752,7 @@ body {
 }
 
 .header__desc {
-  margin-bottom: 51px;
+  margin-bottom: 50px;
   max-width: 428px;
   font-size: 18px;
   line-height: 1.67;
@@ -977,6 +978,9 @@ body {
 /* Media*/
 /* Tablet */
 @media (max-width: 1199px) {
+  .h1 {
+    font-size: 50px;
+  }
   .header-top {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -992,11 +996,38 @@ body {
   }
   .header-bg {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     background-image: url("./../img/header/hero.png");
     background-position: right center;
     background-size: contain;
     background-repeat: no-repeat;
+    background-size: 500px auto;
+    background-position: right bottom;
+  }
+  .header__widget {
+    bottom: -40%;
+    transform: translate(10%, 0);
+  }
+  .header__text {
+    width: 450px;
+  }
+  .header__badge {
+    margin-bottom: 20px;
+  }
+  .header__title {
+    margin-bottom: 30px;
+  }
+  .header__desc {
+    margin-bottom: 40px;
+  }
+  .header__buttons {
+    -moz-column-gap: 45px;
+         column-gap: 45px;
+  }
+  .widget {
+    padding: 35px 30px;
+    width: 290px;
+    height: 290px;
   }
 }
 /* Mobile */
