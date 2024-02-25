@@ -83,7 +83,6 @@
     .header-bg {
         padding-top: 20px;
         padding-bottom: 20px;
-        background-size: 430px auto;
     }
 
     .header__text {
@@ -135,8 +134,25 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 727px) {
     .header-bg {
-        background-size: 400px auto;
+        padding-bottom: 15px;
+        background-position: right bottom;
+        background-size: 300px auto;
+    }
+
+    .header__widget {
+        bottom: -10%;
+        transform: translate(60%, 0);
+    }
+
+    .header__buttons {
+        column-gap: 20px;
+    }
+
+    .widget {
+        padding: 25px 20px;
+        width: 150px;
+        height: 150px;
     }
 }

@@ -11,9 +11,13 @@
         width: 768px;
     }
 
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+
     /* Mobile XS */
     @media (max-width: 599px) {
-        width: 100%;
+        width: 320px;
     }
 }
 

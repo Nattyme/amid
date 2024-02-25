@@ -24,15 +24,7 @@
         background-position: center 110%;
         background-size: 320px auto;
 
-        // &::before {
-        //     content: "";
-        //     position: absolute;
-        //     top: 0;
-        //     right: 0;
-        //     left: 0;
-        //     bottom: 0;
-        //     background-color: rgba(255, 255, 255, 0.6);
-        // }
+       
     }
 
     .header__text {
@@ -75,5 +67,15 @@
         height: 40px;
         line-height: 40px;
         font-size: 14px;
+    }
+
+    .header__widget {
+        bottom: -150%;
+        transform: translate(-45%, 0);
+    }
+
+    .widget {
+        width: 130px;
+        height: 130px;
     }
 }
