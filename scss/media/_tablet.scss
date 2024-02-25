@@ -71,4 +71,20 @@
         height: 290px;
     }
 
+    /* our clients*/
+    .our-clients {
+        padding-top: 35px;
+        padding-bottom: 80px;
+    }
+
+    .our-clients__list {
+        justify-content: center;
+        gap: 23px;
+    }
+
+    .our-clients__list li {
+        width: 200px;
+        flex-grow: 1;
+    }
+
 }

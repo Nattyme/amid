@@ -129,6 +129,19 @@
         padding-left: 45px;
         padding-right: 0;
     }
+
+    /*our clients*/
+    .our-clients {
+        padding-bottom: 60px;
+    }
+
+    .our-clients__list {
+        gap: 10px;
+    }
+
+    .our-clients__list li {
+        width: 175px;
+    }
 }
 
 
