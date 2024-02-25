@@ -4,6 +4,14 @@
         font-size: 50px;
     }
 
+    .btn-solid {
+        padding: 0 25px;
+    }
+
+    .btn-video {
+        padding-right: 25px;
+    }
+
     .header-top {
         padding-top: 30px;
         padding-bottom: 40px;
@@ -27,7 +35,7 @@
         padding-bottom: 80px;
         
         @include bgImage ('./../img/header/hero.png');
-        background-size: 500px auto;
+        background-size: 530px auto;
         background-position: right bottom;
     }
 
@@ -53,7 +61,7 @@
     }
 
     .header__buttons {
-        column-gap: 45px;
+        column-gap: 40px;
     }
 
     .widget {

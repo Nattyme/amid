@@ -1,10 +1,79 @@
 /* Mobile XS */
 @media (max-width: 599px) {
+    .h1 {
+        font-size: 25px;
+    }
+
     .nav-mobile {
         align-items: center;
     }
 
     .nav-icon.nav-icon--active {
         right: 15px;
+    }
+
+    .header__content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-bg {
+        padding-bottom: 310px;
+        position: relative;
+        @include bgImage ('./../img/header/hero.png');
+        background-position: center 110%;
+        background-size: 320px auto;
+
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     top: 0;
+        //     right: 0;
+        //     left: 0;
+        //     bottom: 0;
+        //     background-color: rgba(255, 255, 255, 0.6);
+        // }
+    }
+
+    .header__text {
+        padding-top: 0;
+        width: 320px;
+    }
+
+    .badge {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .header__title {
+        margin-bottom: 15px;
+    }
+
+    .header__desc {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .header__buttons {
+        column-gap: 20px;
+    }
+
+    .btn-solid {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        width: unset;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .btn-video {
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
     }
 }
