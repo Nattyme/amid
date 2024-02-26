@@ -116,6 +116,7 @@
         }
 
         a {
+            font-weight: 600;
             color: #fff;
             transition: color 0.2s ease-in;
 
@@ -329,6 +330,10 @@
         width: 165px;
     }
 
+    /* cta*/
+    .cta .btn-solid {
+        width: 165px;
+    }
 }
 
 @media (max-width: 767px) {
