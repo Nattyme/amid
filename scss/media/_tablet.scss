@@ -22,6 +22,24 @@
         padding-right: 25px;
     }
 
+    .data-grid {
+        width: 425px;
+    }
+
+    .data-grid li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .data-grid li {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        column-gap: 20px;
+    }
+
+    .data-grid__number {
+        font-size: 34px;
+    }
+
     .header-top {
         padding-top: 30px;
         padding-bottom: 40px;
@@ -96,7 +114,6 @@
     }
 
     /*service*/
-
     .service {
         padding-bottom: 50px;
     }
@@ -106,5 +123,39 @@
         width: 290px;
     }
 
+    /*achievements*/
+    .achievements {
+        padding-bottom: 80px;
+    }
 
+    .achievements__row {
+        column-gap: 40px;
+    }
+
+    .achievements__title {
+        margin-bottom: 60px;
+    }
+
+    .achievements__data-grid {
+        margin-bottom: 40px;
+        padding-left: 0;
+    }
+
+    .achievements-card {
+        width: 405px;
+    }
+
+    .achievements-card__img {
+        margin-bottom: 30px;
+        height: 590px;
+        background-position: 51% 170%;
+        background-size: 400px 400px;
+    }
+
+    .achievements-card__img img {
+        width: 320px;
+        height: 499px;
+        top: unset;
+        bottom: 0;
+    }
 }
