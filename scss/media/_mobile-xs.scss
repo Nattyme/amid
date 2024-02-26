@@ -167,4 +167,37 @@
         margin-bottom: 20px;
     }
 
+    /* blog, slider */
+    .blog {
+        padding-bottom: 20px;
+    }
+    
+    .blog__desc {
+        margin-bottom: 20px;
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .slider__item {
+        width: 290px;
+    }
+
+    .slider__img {
+        width: 290px;
+    }
+
+    .slider__text {
+        margin-bottom: 10px;
+    }
+
+    .slider__desc {
+        font-size: 16px;
+    }
+
+    .slider__btn {
+        width: 150px;
+    }
+
 }

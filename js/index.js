@@ -9,10 +9,17 @@ $(document).ready(function(){
 
     // Запускаем карусель
     owl.owlCarousel({
-        margin:60,
+        margin: 35,
         autoWidth:true,
         smartSpeed: 2000,
-        items: 2
+        items: 1,
+        responsiveClass:true,
+        responsive:{
+            728:{
+                margin: 60,
+                items:2,
+            }
+        }
     });
 
     // Клик на кнопку назад и прокрутка карусели

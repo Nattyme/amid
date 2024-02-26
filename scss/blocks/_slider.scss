@@ -18,6 +18,7 @@
 
     .slider__img img {
         filter: saturate(130%);
+        object-fit: cover;
     }
 
     .btn-outline {

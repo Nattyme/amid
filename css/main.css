@@ -609,6 +609,8 @@ body {
 
 .slider__item:hover .slider__img img {
   filter: saturate(130%);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .slider__item:hover .btn-outline {
   transform: translateX(0);
@@ -1411,9 +1413,6 @@ body {
   .slider__btn {
     width: 165px;
   }
-  .owl-carousel .owl-item.active {
-    margin-right: 35px !important;
-  }
 }
 @media (max-width: 767px) {
   .header .container {
@@ -1557,5 +1556,30 @@ body {
   }
   .achievements-card__btn {
     margin-bottom: 20px;
+  }
+  /* blog, slider */
+  .blog {
+    padding-bottom: 20px;
+  }
+  .blog__desc {
+    margin-bottom: 20px;
+  }
+  .blog__desc p {
+    font-size: 16px;
+  }
+  .slider__item {
+    width: 290px;
+  }
+  .slider__img {
+    width: 290px;
+  }
+  .slider__text {
+    margin-bottom: 10px;
+  }
+  .slider__desc {
+    font-size: 16px;
+  }
+  .slider__btn {
+    width: 150px;
   }
 }/*# sourceMappingURL=main.css.map */
