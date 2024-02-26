@@ -46,7 +46,6 @@
 
     .header-top__row {
         width: unset;
-
     }
 
     .header-top__logo {
@@ -222,5 +221,15 @@
     .cta .btn-solid {
         width: 165px;
     }
+
+    /* footer*/
+    .footer__top {
+        padding-bottom: 30px;
+    }
+
+    .footer__nav li:not(:last-child) {
+        margin-right: 30px;
+    }
+    
 
 }

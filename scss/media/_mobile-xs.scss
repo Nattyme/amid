@@ -18,18 +18,26 @@
 
     .data-grid {
         width: 100%;
+        height: 280px;
     }
 
     .data-grid li {
         padding-top: 10px;
         padding-bottom: 10px;
-        column-gap: 10px;
-        grid-template-columns: unset;
-        border-bottom: 1px solid rgba(18, 79, 72, 0.37);
+        column-gap: 15px;
+        grid-template-columns: 50px 1fr 70px;
     }
 
     .data-grid li:not(:last-child) {
         margin-bottom: 0px;
+    }
+
+    .data-grid__number {
+        font-size: 20px;
+    }
+
+    .data-grid__title {
+        font-size: 16px;
     }
 
     .nav-mobile {
@@ -117,7 +125,7 @@
 
     .service-card {
         width: 100%;
-        height: 300px;
+        height: 280px;
     }
 
     .service-card__title {
@@ -126,8 +134,9 @@
 
     /* achievements*/
     .achievements__row {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         flex-direction: column;
+        row-gap: 20px;
     }
 
     .achievements__column:last-child {
@@ -150,21 +159,35 @@
         margin-bottom: 20px;
     }
 
+    .achievements-card {
+        max-width: 290px;
+    }
+
     .achievements-card__img {
+        margin-bottom: 20px;
         height: 300px;
         background-position: 51% -500%;
     }
 
     .achievements-card__img img {
         height: 280px;
+        width: 200px;
     }
 
     .achievements-card__title {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .achievements-card__desc {
+        font-size: 16px;
     }
 
     .achievements-card__btn {
         margin-bottom: 20px;
+    }
+
+    .achievements__btn .btn-solid {
+        width: 175px;
     }
 
     /* blog, slider */
@@ -233,5 +256,45 @@
     .cta .btn-solid {
         width: 135px;
     }
+
+    /* footer*/
+    .footer__row {
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 0;
+        row-gap: 30px;
+    }
+
+    .footer__top {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    .footer__bottom .footer__row {
+        justify-content: center;
+    }
+
+    .footer__logo-wrapper {
+        width: 120px;
+    }
+
+    .footer__logo {
+        margin-bottom: 0;
+    }
+
+    .footer__nav li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .footer__nav {
+        order: -1;
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+
+    .footer__contact {
+        font-size: 12px;
+    }
+
 
 }

@@ -202,7 +202,6 @@
     .service-card__desc {
         height: 60px;
         font-size: 16px;
-        -webkit-line-clamp: 3;
     }
 
 
@@ -334,6 +333,24 @@
     .cta .btn-solid {
         width: 165px;
     }
+
+    /* footer*/
+    .footer__nav li:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .footer__nav a {
+        font-size: 16px;
+    }
+
+    .footer__contact {
+        font-size: 16px;
+    }
+
+    .footer__copyright {
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width: 767px) {
