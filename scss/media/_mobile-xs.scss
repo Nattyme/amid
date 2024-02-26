@@ -4,6 +4,18 @@
         font-size: 30px;
     }
 
+    .h2 {
+        font-size: 28px;
+    }
+
+    .h3 {
+        font-size: 18px;
+    }
+
+    .btn-outline {
+        font-size: 14px;
+    }
+
     .nav-mobile {
         align-items: center;
     }
@@ -30,14 +42,6 @@
     .header__text {
         padding-top: 0;
         width: 320px;
-    }
-
-    .badge {
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 20px;
-        line-height: 20px;
-        font-size: 14px;
     }
 
     .header__title {
@@ -73,7 +77,7 @@
         display: none;
     }
 
-     /* our clients*/
+    /* our clients*/
     .our-clients {
         padding-top: 20px;
         padding-bottom: 40px;
@@ -82,4 +86,23 @@
     .our-clients__list li {
         width: 140px;
     }
+
+    /* service*/
+    .service__header {
+        flex-direction: column;
+    }
+
+    .service__title {
+        margin-bottom: 15px;
+        width: unset;
+    }
+
+    .service__desc {
+        width: unset;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
 }

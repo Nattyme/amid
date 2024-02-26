@@ -4,9 +4,13 @@
         font-size: 35px;
     }
 
+    .h2 {
+        font-size: 32px;
+    }
+
     .btn-outline {
         padding-left: 26px;
-        padding-right: 10px;
+        padding-right: 26px;
 
         height: 45px;
         column-gap: 0;
@@ -18,6 +22,14 @@
             width: 15px;
             height: 15px;
         }
+    }
+
+    .badge {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
     }
 
     .header-top {
@@ -109,11 +121,6 @@
         margin-bottom: 10px;
     }
 
-    .badge {
-        height: 30px;
-        line-height: 30px;
-    }
-
     .header__title {
         margin-bottom: 20px;
     }
@@ -164,14 +171,18 @@
         padding-bottom: 30px;
     }
 
+    .service__title {
+        max-width: 330px;
+    }
+
     .service__desc {
-        margin-left: 50px;
-        max-width: 350px;
+        margin-left: 0;
+        max-width: 330px;
         font-size: 16px;
     }
 
     .service-card {
-        padding: 20px 10px;
+        padding: 20px 20px;
         height: 320px;
     }
 
@@ -195,4 +206,10 @@
     }
 
 
+}
+
+@media (max-width: 767px) {
+    .header .container {
+        width: 100%;
+    }
 }

@@ -152,15 +152,10 @@ body {
 }
 @media (max-width: 989px) {
   .container {
-    width: 768px;
+    width: 728px;
   }
 }
-@media (max-width: 767px) {
-  .container {
-    width: 100%;
-  }
-}
-@media (max-width: 599px) {
+@media (max-width: 727px) {
   .container {
     width: 320px;
   }
@@ -814,6 +809,7 @@ body {
 
 .service-card__row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .achievements {
@@ -1070,9 +1066,12 @@ body {
   .h1 {
     font-size: 35px;
   }
+  .h2 {
+    font-size: 32px;
+  }
   .btn-outline {
     padding-left: 26px;
-    padding-right: 10px;
+    padding-right: 26px;
     height: 45px;
     -moz-column-gap: 0;
          column-gap: 0;
@@ -1082,6 +1081,13 @@ body {
   .btn-outline svg {
     width: 15px;
     height: 15px;
+  }
+  .badge {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
   }
   .header-top {
     padding-top: 20px;
@@ -1148,10 +1154,6 @@ body {
   .header__badge {
     margin-bottom: 10px;
   }
-  .badge {
-    height: 30px;
-    line-height: 30px;
-  }
   .header__title {
     margin-bottom: 20px;
   }
@@ -1192,13 +1194,16 @@ body {
   .service {
     padding-bottom: 30px;
   }
+  .service__title {
+    max-width: 330px;
+  }
   .service__desc {
-    margin-left: 50px;
-    max-width: 350px;
+    margin-left: 0;
+    max-width: 330px;
     font-size: 16px;
   }
   .service-card {
-    padding: 20px 10px;
+    padding: 20px 20px;
     height: 320px;
   }
   .service-card__img {
@@ -1217,10 +1222,24 @@ body {
     width: 155px;
   }
 }
+@media (max-width: 767px) {
+  .header .container {
+    width: 100%;
+  }
+}
 /* Mobile XS */
 @media (max-width: 727px) {
   .h1 {
     font-size: 30px;
+  }
+  .h2 {
+    font-size: 28px;
+  }
+  .h3 {
+    font-size: 18px;
+  }
+  .btn-outline {
+    font-size: 14px;
   }
   .nav-mobile {
     align-items: center;
@@ -1245,13 +1264,6 @@ body {
   .header__text {
     padding-top: 0;
     width: 320px;
-  }
-  .badge {
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 14px;
   }
   .header__title {
     margin-bottom: 15px;
@@ -1287,5 +1299,19 @@ body {
   }
   .our-clients__list li {
     width: 140px;
+  }
+  /* service*/
+  .service__header {
+    flex-direction: column;
+  }
+  .service__title {
+    margin-bottom: 15px;
+    width: unset;
+  }
+  .service__desc {
+    width: unset;
+  }
+  .service-card {
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */

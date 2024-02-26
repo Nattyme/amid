@@ -8,15 +8,11 @@
     }
 
     @media (max-width: 989px) {
-        width: 768px;
-    }
-
-    @media (max-width: 767px) {
-        width: 100%;
+        width: 728px;
     }
 
     /* Mobile XS */
-    @media (max-width: 599px) {
+    @media (max-width: 727px) {
         width: 320px;
     }
 }
