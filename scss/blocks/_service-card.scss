@@ -6,10 +6,6 @@
 
     cursor: pointer;
     transition: all 0.2s ease-in;
-
-    &:not(:last-child) {
-        margin-right: 16px;
-    }
 }
 
 .service-card:hover {
