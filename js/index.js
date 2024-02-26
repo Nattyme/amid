@@ -12,8 +12,7 @@ $(document).ready(function(){
         margin:60,
         autoWidth:true,
         smartSpeed: 2000,
-        items: 2,
-        loop: true
+        items: 2
     });
 
     // Клик на кнопку назад и прокрутка карусели

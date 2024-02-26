@@ -2,7 +2,6 @@
     display: inline-block;
     width: 520px;
     height: 649px;
-    padding-bottom: 19px;
 
     border-radius: 10px;
     background-color: #fff;
@@ -104,7 +103,7 @@
         -webkit-line-clamp: 3; // Ограничиваем кол-во строк текста
         overflow: hidden;
     }
-    
+
 }
 
 .slider__arrow {
