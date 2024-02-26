@@ -12,10 +12,11 @@ $(document).ready(function(){
         margin: 35,
         autoWidth:true,
         smartSpeed: 2000,
+        loop: true,
         items: 1,
         responsiveClass:true,
         responsive:{
-            728:{
+            990:{
                 margin: 60,
                 items:2,
             }

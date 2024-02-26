@@ -721,6 +721,10 @@ body {
   margin-left: auto;
 }
 
+.header {
+  padding-bottom: 80px;
+}
+
 .header__content {
   position: relative;
 }
@@ -1039,7 +1043,7 @@ body {
     background-position: right bottom;
   }
   .header__widget {
-    bottom: -40%;
+    bottom: -30%;
     transform: translate(10%, 0);
   }
   .header__text {
@@ -1592,7 +1596,8 @@ body {
   .achievements-card__img {
     margin-bottom: 20px;
     height: 300px;
-    background-position: 51% -500%;
+    background-position: 51% 120px;
+    background-size: 280px 280px;
   }
   .achievements-card__img img {
     height: 280px;
