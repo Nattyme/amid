@@ -559,10 +559,6 @@ body {
   line-height: 2;
 }
 
-.achievements-card__btn {
-  width: 245px;
-}
-
 .data-grid {
   width: 465px;
   height: 410px;
@@ -840,6 +836,13 @@ body {
   padding-left: 52px;
 }
 .achievements__data-grid--mobile {
+  display: none;
+}
+
+.achievements__btn {
+  width: 245px;
+}
+.achievements__btn--mobile {
   display: none;
 }
 
@@ -1139,6 +1142,20 @@ body {
     line-height: 25px;
     font-size: 14px;
   }
+  .widget {
+    padding: 30px 25px;
+    width: 200px;
+    height: 200px;
+  }
+  .btn-solid,
+  .btn-video {
+    font-size: 16px;
+    width: 150px;
+  }
+  .btn-video {
+    padding-left: 45px;
+    padding-right: 0;
+  }
   .header-top {
     padding-top: 20px;
     padding-bottom: 30px;
@@ -1216,20 +1233,6 @@ body {
     bottom: -20%;
     transform: translate(10%, 0);
   }
-  .widget {
-    padding: 30px 25px;
-    width: 200px;
-    height: 200px;
-  }
-  .btn-solid,
-  .btn-video {
-    font-size: 16px;
-    width: 150px;
-  }
-  .btn-video {
-    padding-left: 45px;
-    padding-right: 0;
-  }
   /*our clients*/
   .our-clients {
     padding-bottom: 60px;
@@ -1298,6 +1301,12 @@ body {
   .achievements__column:first-child {
     width: unset;
   }
+  .achievements__column:last-child {
+    padding-top: 115px;
+  }
+  .achievements__title {
+    margin-bottom: 40px;
+  }
   .achievements-card {
     max-width: 320px;
   }
@@ -1320,6 +1329,15 @@ body {
     margin-bottom: 0;
     padding-top: 0;
     padding-left: 0;
+  }
+  .achievements__btn {
+    display: none;
+  }
+  .achievements__btn--mobile {
+    display: block;
+  }
+  .achievements__btn .btn-solid {
+    width: 250px;
   }
 }
 @media (max-width: 767px) {
@@ -1350,6 +1368,7 @@ body {
     -moz-column-gap: 10px;
          column-gap: 10px;
     grid-template-columns: unset;
+    border-bottom: 1px solid rgba(18, 79, 72, 0.37);
   }
   .data-grid li:not(:last-child) {
     margin-bottom: 0px;
@@ -1435,6 +1454,9 @@ body {
   .achievements__row {
     margin-bottom: 20px;
     flex-direction: column;
+  }
+  .achievements__column:last-child {
+    padding-top: 0;
   }
   .achievements__header {
     width: 100%;

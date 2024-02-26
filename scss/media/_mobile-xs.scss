@@ -25,6 +25,7 @@
         padding-bottom: 10px;
         column-gap: 10px;
         grid-template-columns: unset;
+        border-bottom: 1px solid rgba(18, 79, 72, 0.37);
     }
 
     .data-grid li:not(:last-child) {
@@ -50,8 +51,6 @@
         @include bgImage ('./../img/header/hero.png');
         background-position: center 110%;
         background-size: 320px auto;
-
-
     }
 
     .header__text {
@@ -129,6 +128,10 @@
     .achievements__row {
         margin-bottom: 20px;
         flex-direction: column;
+    }
+
+    .achievements__column:last-child {
+        padding-top: 0;
     }
 
     .achievements__header {

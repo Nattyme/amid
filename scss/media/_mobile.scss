@@ -32,6 +32,23 @@
         font-size: 14px;
     }
 
+    .widget {
+        padding: 30px 25px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn-solid,
+    .btn-video {
+        font-size: 16px;
+        width: 150px;
+    }
+
+    .btn-video {
+        padding-left: 45px;
+        padding-right: 0;
+    }
+
     .header-top {
         padding-top: 20px;
         padding-bottom: 30px;
@@ -136,23 +153,6 @@
         transform: translate(10%, 0);
     }
 
-    .widget {
-        padding: 30px 25px;
-        width: 200px;
-        height: 200px;
-    }
-
-    .btn-solid,
-    .btn-video {
-        font-size: 16px;
-        width: 150px;
-    }
-
-    .btn-video {
-        padding-left: 45px;
-        padding-right: 0;
-    }
-
     /*our clients*/
     .our-clients {
         padding-bottom: 60px;
@@ -238,6 +238,14 @@
         width: unset;
     }
 
+    .achievements__column:last-child {
+        padding-top: 115px;
+    }
+
+    .achievements__title {
+        margin-bottom: 40px;
+    }
+
     .achievements-card {
         max-width: 320px;
 
@@ -266,6 +274,19 @@
         padding-top: 0;
         padding-left: 0;
     }
+
+    .achievements__btn {
+        display: none;
+
+        &--mobile {
+            display: block;
+        }
+    }
+
+    .achievements__btn .btn-solid {
+        width: 250px;
+    }
+
 }
 
 @media (max-width: 767px) {
