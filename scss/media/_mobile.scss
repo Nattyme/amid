@@ -209,7 +209,63 @@
         width: 165px;
     }
 
+    /*achievements*/
+    .achievements {
+        padding-bottom: 30px;
+    }
 
+    .achievements__header {
+        width: 360px;
+    }
+
+    .achievements__row {
+        margin-bottom: 35px;
+        column-gap: 0;
+        justify-content: space-between;
+    }
+
+    .achievements__data-grid {
+        display: none;
+
+        &--mobile {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .achievements__column,
+    .achievements__column:first-child {
+        width: unset;
+    }
+
+    .achievements-card {
+        max-width: 320px;
+
+        &:last-child {
+            padding-top: 150px;
+        }
+    }
+
+    .achievements-card__title {
+        margin-bottom: 30px;
+    }
+
+    .achievements-card__img {
+        height: 400px;
+        background-size: 330px 320px;
+        background-position: 51% 230%;
+    }
+
+    .achievements-card__img img {
+        width: 250px;
+        height: 350px;
+    }
+
+    .achievements__data-grid {
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-left: 0;
+    }
 }
 
 @media (max-width: 767px) {
