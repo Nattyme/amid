@@ -1341,6 +1341,19 @@ body {
   .btn-outline {
     font-size: 14px;
   }
+  .data-grid {
+    width: 100%;
+  }
+  .data-grid li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    grid-template-columns: unset;
+  }
+  .data-grid li:not(:last-child) {
+    margin-bottom: 0px;
+  }
   .nav-mobile {
     align-items: center;
   }
@@ -1417,5 +1430,35 @@ body {
   }
   .service-card__title {
     margin-bottom: 15px;
+  }
+  /* achievements*/
+  .achievements__row {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .achievements__header {
+    width: 100%;
+  }
+  .achievements__title {
+    margin-bottom: 25px;
+  }
+  .achievements-card:last-child {
+    padding-top: 0;
+  }
+  .achievements-card:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .achievements-card__img {
+    height: 300px;
+    background-position: 51% -500%;
+  }
+  .achievements-card__img img {
+    height: 280px;
+  }
+  .achievements-card__title {
+    margin-bottom: 20px;
+  }
+  .achievements-card__btn {
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=main.css.map */
