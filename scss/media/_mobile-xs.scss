@@ -103,6 +103,11 @@
 
     .service-card {
         width: 100%;
+        height: 300px;
+    }
+
+    .service-card__title {
+        margin-bottom: 15px;
     }
 
 }
