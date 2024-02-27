@@ -6,6 +6,24 @@ $(document).ready(function(){
     const next = $('#sliderNext');
     const navIcon = document.querySelector(".nav-icon");
     const nav = document.querySelector(".nav-mobile");
+    const navLinks = document.querySelectorAll("#nav-mobile a");
+    const bodyEl = document.body;
+
+
+    /****** Мобильная навигация и кнопка ******/
+    navIcon.addEventListener("click", function () {
+        this.classList.toggle("nav-icon--active");
+        nav.classList.toggle("nav-mobile--active");
+        bodyEl.classList.toggle("lock");
+    });
+
+    navLinks.forEach(function (item) {
+        item.addEventListener("click", function () {
+            this.classList.remove("nav-icon--active");
+            nav.classList.remove("nav-mobile--active");
+            bodyEl.classList.remove("lock");
+        });
+    });
 
     // Запускаем карусель
     owl.owlCarousel({
@@ -32,13 +50,5 @@ $(document).ready(function(){
     next.click(function(){
         owl.trigger('next.owl.carousel')
     });
-
-    /****** Мобильная навигация и кнопка ******/
-    navIcon.addEventListener("click", function () {
-    this.classList.toggle("nav-icon--active");
-    nav.classList.toggle("nav-mobile--active");
-    // bodyEl.classList.toggle("lock");
-    });
-
 
   });

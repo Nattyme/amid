@@ -117,6 +117,10 @@ body {
   color: var(--text-color);
 }
 
+.lock {
+  overflow: hidden;
+}
+
 .none {
   display: none !important;
 }
@@ -1006,6 +1010,7 @@ body {
 .footer__logo-wrapper {
   height: 64px;
   width: 157px;
+  cursor: pointer;
 }
 
 .footer__logo {
