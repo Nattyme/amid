@@ -8,6 +8,25 @@
         font-size: 32px;
     }
 
+    .btn {
+        height: 50px;
+        line-height: 50px;
+        font-size: 14px;
+    }
+
+    .btn-solid {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        &--view-more {
+            padding-right: 40px;
+        }
+    
+        &--subscribe {
+            padding-right: 49px;
+        }
+    }
+
     .badge {
         padding-left: 10px;
         padding-right: 10px;
@@ -205,10 +224,6 @@
         }
     }
 
-    .achievements__btn .btn-solid {
-        width: 250px;
-    }
-
     /* blog, slider*/
     .blog {
         padding-bottom: 40px;
@@ -248,11 +263,6 @@
     }
 
     .slider__btn {
-        width: 165px;
-    }
-
-    /* cta*/
-    .cta .btn-solid {
         width: 165px;
     }
 

@@ -254,6 +254,7 @@ body {
   margin-top: 100%;
   margin-right: auto;
   width: 150px;
+  text-align: center;
   color: #fff;
 }
 
@@ -916,9 +917,6 @@ body {
   display: none;
 }
 
-.achievements__btn {
-  width: 245px;
-}
 .achievements__btn--mobile {
   display: none;
 }
@@ -1072,8 +1070,14 @@ body {
     font-size: 20px;
   }
   .btn-solid {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-solid--view-more {
+    padding-right: 56px;
+  }
+  .btn-solid--subscribe {
+    padding-right: 64px;
   }
   .btn-video {
     padding-right: 25px;
@@ -1236,9 +1240,6 @@ body {
     margin-bottom: 20px;
     max-width: 500px;
   }
-  .cta .btn-solid {
-    width: 165px;
-  }
   /* footer*/
   .footer__top {
     padding-bottom: 30px;
@@ -1254,6 +1255,21 @@ body {
   }
   .h2 {
     font-size: 32px;
+  }
+  .btn {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+  }
+  .btn-solid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .btn-solid--view-more {
+    padding-right: 40px;
+  }
+  .btn-solid--subscribe {
+    padding-right: 49px;
   }
   .badge {
     padding-left: 10px;
@@ -1410,9 +1426,6 @@ body {
   .achievements__btn--mobile {
     display: block;
   }
-  .achievements__btn .btn-solid {
-    width: 250px;
-  }
   /* blog, slider*/
   .blog {
     padding-bottom: 40px;
@@ -1446,10 +1459,6 @@ body {
   .slider__btn {
     width: 165px;
   }
-  /* cta*/
-  .cta .btn-solid {
-    width: 165px;
-  }
   /* footer*/
   .footer__nav li:not(:last-child) {
     margin-right: 10px;
@@ -1479,6 +1488,10 @@ body {
   }
   .h3 {
     font-size: 18px;
+  }
+  .btn {
+    height: 45px;
+    line-height: 45px;
   }
   .nav-mobile__content {
     justify-content: center;

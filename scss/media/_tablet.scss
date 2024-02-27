@@ -13,8 +13,16 @@
     }
 
     .btn-solid {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        &--view-more {
+            padding-right: 56px;
+        }
+    
+        &--subscribe {
+            padding-right: 64px;
+        }
     }
 
     .btn-video {
@@ -211,10 +219,6 @@
     .cta__title {
         margin-bottom: 20px;
         max-width: 500px;
-    }
-
-    .cta .btn-solid {
-        width: 165px;
     }
 
     /* footer*/
