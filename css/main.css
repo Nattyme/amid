@@ -214,7 +214,7 @@ body {
   left: 0;
   bottom: 0;
   background-color: rgba(18, 79, 72, 0.8);
-  transform: translateX(-100%);
+  transform: translateX(100%);
   transition: transform 0.3s ease-in;
 }
 .nav-mobile.nav-mobile--active {
@@ -222,9 +222,10 @@ body {
 }
 
 .nav-mobile__content {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 50px;
+  padding: 50px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
   position: absolute;
   top: 0;
   right: 0;
@@ -251,7 +252,9 @@ body {
 
 .nav-mobile__content .btn-solid {
   margin-top: 100%;
-  width: 100%;
+  margin-right: auto;
+  width: 150px;
+  color: #fff;
 }
 
 .nav-icon {
@@ -1263,6 +1266,9 @@ body {
     line-height: 25px;
     font-size: 14px;
   }
+  .nav-icon.nav-icon--active {
+    top: 25px;
+  }
   .widget {
     padding: 30px 25px;
     width: 200px;
@@ -1478,6 +1484,16 @@ body {
   .h3 {
     font-size: 18px;
   }
+  .nav-mobile__content {
+    justify-content: center;
+    width: 100%;
+  }
+  .nav-mobile__nav {
+    text-align: center;
+  }
+  .nav-icon.nav-icon--active {
+    right: 15px;
+  }
   .header-bg {
     padding-bottom: 310px;
     background-position: center 110%;
@@ -1502,12 +1518,6 @@ body {
   }
   .data-grid__title {
     font-size: 16px;
-  }
-  .nav-mobile {
-    align-items: center;
-  }
-  .nav-icon.nav-icon--active {
-    right: 15px;
   }
   .header {
     padding-bottom: 35px;

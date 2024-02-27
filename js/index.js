@@ -19,11 +19,19 @@ $(document).ready(function(){
 
     navLinks.forEach(function (item) {
         item.addEventListener("click", function () {
-            this.classList.remove("nav-icon--active");
-            nav.classList.remove("nav-mobile--active");
-            bodyEl.classList.remove("lock");
+            navIcon.classList.toggle("nav-icon--active");
+            nav.classList.toggle("nav-mobile--active");
+            bodyEl.classList.toggle("lock");
         });
     });
+
+    nav.addEventListener("click", function(event) {
+        if(event.target == event.currentTarget){
+            navIcon.classList.remove("nav-icon--active");
+            nav.classList.remove("nav-mobile--active");
+            bodyEl.classList.remove("lock");
+        }
+      });
 
     // Запускаем карусель
     owl.owlCarousel({
