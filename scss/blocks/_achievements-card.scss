@@ -21,6 +21,22 @@
     background-size: 506px 506px;
     background-repeat: no-repeat;
 
+    animation: animate 10s ease infinite;
+
+    @keyframes animate {
+        0% {
+            background-color: #edfffd;
+        }
+
+        50% {
+            background-color: #d6fdf9;
+        }
+
+        100% {
+            background-color: #edfffd;
+        }
+    }
+
     img {
         position: absolute;
         left: 50%;
@@ -42,11 +58,27 @@
     &--lightBg {
         background-color: #fff8f4;
         background-image: url('./../img/achievements/circle-light.svg');
+        animation: animate--light 10s ease infinite;
 
         img {
             box-shadow: 0 34px 80px 0 rgba(80, 153, 145, 0.24);
         }
+
+        @keyframes animate--light {
+            0% {
+                background-color: #fff9f4;
+            }
+
+            50% {
+                background-color: #f8e4d3;
+            }
+
+            100% {
+                background-color: #fff8f4;
+            }
+        }
     }
+
 }
 
 .achievements-card__title {
@@ -57,4 +89,3 @@
     font-size: 18px;
     line-height: 2;
 }
-
