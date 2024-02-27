@@ -16,6 +16,12 @@
         font-size: 14px;
     }
 
+    .header-bg {
+        padding-bottom: 310px;
+        background-position: center 110%;
+        background-size: 320px auto;
+    }
+
     .data-grid {
         width: 100%;
         height: 280px;
@@ -48,17 +54,13 @@
         right: 15px;
     }
 
+    .header {
+        padding-bottom: 35px;
+    }
+
     .header__content {
         display: flex;
         justify-content: center;
-    }
-
-    .header-bg {
-        padding-bottom: 310px;
-        position: relative;
-        @include bgImage ('./../img/header/hero.png');
-        background-position: center 110%;
-        background-size: 320px auto;
     }
 
     .header__text {
@@ -196,10 +198,6 @@
         padding-bottom: 20px;
     }
 
-    .blog__title {
-        margin-bottom: 0;
-    }
-
     .blog__desc {
         margin-bottom: 20px;
 
@@ -234,8 +232,8 @@
 
     /* cta*/
     .cta {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .cta .h2 {
@@ -267,8 +265,8 @@
     }
 
     .footer__top {
-        padding-top: 35px;
-        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .footer__bottom .footer__row {
@@ -297,5 +295,7 @@
         font-size: 12px;
     }
 
-
+    .footer__copyright {
+        font-size: 14px;
+    }
 }

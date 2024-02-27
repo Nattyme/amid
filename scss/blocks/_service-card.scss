@@ -1,20 +1,15 @@
 .service-card {
-    padding: 50px 35px 45px;
+    padding-right: 15px;
     display: block;
-    width: 365px;
-    height: 415px;
+    width: 350px;
+    height: 320px;
 
     cursor: pointer;
     transition: all 0.2s ease-in;
 }
 
-.service-card:hover {
-    background-color: #fff;
-    box-shadow: 0 20px 84px 0 rgba(245, 245, 245, 0.8);
-
-    .service-card__img svg {
-        box-shadow: 30px 44px 84px 0 rgba(208, 211, 231, 0.31);
-    }
+.service-card:hover .service-card__img {
+    box-shadow: 30px 44px 84px 0 rgba(208, 211, 231, 0.31);
 }
 
 .service-card__img {
