@@ -463,7 +463,7 @@ body {
 }
 
 .service-card {
-  padding: 50px 35px 45px 35px;
+  padding: 50px 35px 45px;
   display: block;
   width: 365px;
   height: 415px;
@@ -474,14 +474,6 @@ body {
 .service-card:hover {
   background-color: #fff;
   box-shadow: 0 20px 84px 0 rgba(245, 245, 245, 0.8);
-}
-.service-card:hover .btn-outline {
-  transform: translateX(0);
-  background-color: #ff823b;
-  color: #fff;
-}
-.service-card:hover .btn-outline svg {
-  stroke: #fff;
 }
 .service-card:hover .service-card__img svg {
   box-shadow: 30px 44px 84px 0 rgba(208, 211, 231, 0.31);
@@ -527,10 +519,6 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
-}
-
-.service-card__btn {
-  width: 206px;
 }
 
 .achievements-card {
@@ -634,17 +622,9 @@ body {
 }
 
 .slider__item:hover .slider__img img {
-  filter: saturate(130%);
+  filter: grayscale(1.2) sepia(35%);
   -o-object-fit: cover;
      object-fit: cover;
-}
-.slider__item:hover .btn-outline {
-  transform: translateX(0);
-  background-color: var(--accent);
-  color: #fff;
-}
-.slider__item:hover .btn-outline svg {
-  stroke: #fff;
 }
 
 .slider__img {

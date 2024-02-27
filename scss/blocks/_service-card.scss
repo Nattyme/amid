@@ -1,5 +1,5 @@
 .service-card {
-    padding: 50px 35px 45px 35px;
+    padding: 50px 35px 45px;
     display: block;
     width: 365px;
     height: 415px;
@@ -12,16 +12,6 @@
     background-color: #fff;
     box-shadow: 0 20px 84px 0 rgba(245, 245, 245, 0.8);
 
-    .btn-outline {
-        transform: translateX(0);
-        background-color: #ff823b;
-        color: #fff;
-
-        svg {
-            stroke: #fff;
-        }
-    }
-
     .service-card__img svg {
         box-shadow: 30px 44px 84px 0 rgba(208, 211, 231, 0.31);
     }
@@ -33,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 80px;
     height: 80px;
     background-color: #dbffe9;
@@ -59,7 +50,7 @@
     margin-bottom: 35px;
 
     display: -webkit-box;
-    -webkit-box-orient: vertical; // Если конец тсроки обрезан, то добавляет многоточие
+    -webkit-box-orient: vertical; // Если конец строки обрезан, то добавляет многоточие
     -webkit-line-clamp: 1; // Ограничиваем кол-во строк текста
     overflow: hidden;
 }
@@ -75,8 +66,4 @@
     -webkit-box-orient: vertical; // Если конец тсроки обрезан, то добавляет многоточие
     -webkit-line-clamp: 2; // Ограничиваем кол-во строк текста
     overflow: hidden;
-}
-
-.service-card__btn {
-    width: 206px;
 }
