@@ -70,3 +70,11 @@ $height: $lineHeight * 5;
         transform: rotate(-45deg);
     }
 }
+
+.nav-icon.nav-icon--active .nav-icon__middle {
+
+    &::before,
+    &::after {
+        background-color: #124f48;
+    }
+}

@@ -23,8 +23,9 @@
     height: 80px;
     background-color: #dbffe9;
     border-radius: 20px;
+    
     overflow: hidden;
-
+    object-fit: cover;
     transition: box-shadow 0.1s ease-in;
 
     &--clip {

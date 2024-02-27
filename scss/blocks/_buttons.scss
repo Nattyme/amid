@@ -51,6 +51,7 @@
     }
 
     &--login {
+        justify-content: center;
         background-color: #124f48;
     }
 
@@ -84,11 +85,7 @@
     font-size: 18px;
     letter-spacing: 0.05em;
     color: #124f48;
-
-    svg {
-        stroke: #124F48;
-        transition: stroke 0.1s ease;
-    }
+    transition: background-color 0.2s ease-in;
 
     .btn-outline__text {
         position: absolute;
@@ -120,12 +117,8 @@
 .service-card:hover,
 .slider__item:hover {
     .btn-outline {
-        background-color: #FF823B;
+        background-color: #ff823b;
         color: #fff;
-
-        svg {
-            stroke: #fff;
-        }
 
         .btn-outline__text {
             left: 40px;

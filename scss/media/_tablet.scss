@@ -39,21 +39,16 @@
         font-size: 34px;
     }
 
+    .nav-icon.nav-icon--active {
+        z-index: 6;
+        position: fixed;
+        top: 30px;
+        right: 15px;
+    }
+
     .header-top {
         padding-top: 30px;
         padding-bottom: 40px;
-    }
-
-    .header-top__row {
-        width: unset;
-    }
-
-    .header-top__logo {
-        margin: 0;
-    }
-
-    .header-top__btn {
-        margin-left: 0;
     }
 
     .header-bg {
@@ -230,6 +225,6 @@
     .footer__nav li:not(:last-child) {
         margin-right: 30px;
     }
-    
+
 
 }

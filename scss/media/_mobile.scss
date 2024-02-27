@@ -8,22 +8,6 @@
         font-size: 32px;
     }
 
-    .btn-outline {
-        padding-left: 26px;
-        padding-right: 26px;
-
-        height: 45px;
-        column-gap: 0;
-        justify-content: space-between;
-
-        font-size: 16px;
-
-        svg {
-            width: 15px;
-            height: 15px;
-        }
-    }
-
     .badge {
         padding-left: 10px;
         padding-right: 10px;
@@ -36,17 +20,6 @@
         padding: 30px 25px;
         width: 200px;
         height: 200px;
-    }
-
-    .btn-solid,
-    .btn-video {
-        font-size: 16px;
-        width: 150px;
-    }
-
-    .btn-video {
-        padding-left: 45px;
-        padding-right: 0;
     }
 
     .header-top {
@@ -64,66 +37,10 @@
 
     .header-top__btn {
         display: none;
-
-        padding-left: 30px;
-        padding-right: 30px;
-
-        height: 45px;
-        line-height: 45px;
-        font-size: 16px;
     }
 
-    .nav-icon {
+    .nav-mobile, .nav-icon {
         display: flex;
-    }
-
-    .nav-icon.nav-icon--active .nav-icon__middle {
-
-        &::before,
-        &::after {
-            background-color: #fff;
-        }
-    }
-
-    .nav-mobile {
-        z-index: 5;
-        position: fixed;
-
-        padding-top: 100px;
-
-        display: flex;
-        justify-content: center;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        background-color: rgba(18, 79, 72, 0.8);
-
-        transform: translateY(-100%);
-        transition: transform 0.3s ease-in;
-
-        &.nav-mobile--active {
-            transform: translateY(0);
-        }
-    }
-
-    .nav-mobile__nav {
-        text-align: center;
-        font-size: 20px;
-
-        li {
-            margin-bottom: 25px;
-        }
-
-        a {
-            font-weight: 600;
-            color: #fff;
-            transition: color 0.2s ease-in;
-
-            &:hover {
-                color: #ff823b;
-            }
-        }
     }
 
     .header-bg {
@@ -190,6 +107,7 @@
 
     .service-card__img {
         margin-bottom: 20px;
+
         width: 70px;
         height: 70px;
     }

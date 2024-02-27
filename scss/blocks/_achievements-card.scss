@@ -21,7 +21,7 @@
     background-size: 506px 506px;
     background-repeat: no-repeat;
 
-    animation: animate 10s ease infinite;
+    animation: animate 3s ease infinite;
 
     @keyframes animate {
         0% {
@@ -58,7 +58,7 @@
     &--lightBg {
         background-color: #fff8f4;
         background-image: url('./../img/achievements/circle-light.svg');
-        animation: animate--light 10s ease infinite;
+        animation: animate--light 3s ease infinite;
 
         img {
             box-shadow: 0 34px 80px 0 rgba(80, 153, 145, 0.24);
