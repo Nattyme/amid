@@ -21,7 +21,12 @@
         left: 0;
         transform: translateY(-50%);
 
-        content: url("./../img/icons/header/play.svg");
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='11' height='13' viewBox='0 0 11 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M10.5 5.63397C11.1667 6.01888 11.1667 6.98113 10.5 7.36603L2.25 12.1292C1.58333 12.5141 0.749999 12.0329 0.749999 11.2631L0.75 1.73686C0.75 0.967058 1.58333 0.485934 2.25 0.870834L10.5 5.63397Z' fill='%23FF823B'/%3e%3c/svg%3e");
+        background-position: center center; // x y
+        background-size: 15px 15px;
+        background-repeat: no-repeat;
+
+        content: "";
         width: 39px;
         height: 39px;
 
