@@ -430,8 +430,8 @@ body {
   background-size: 15px 15px;
   background-repeat: no-repeat;
   content: "";
-  width: 39px;
-  height: 39px;
+  width: 40px;
+  height: 40px;
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0 0 24px 0 #d6e2e1;
@@ -1138,8 +1138,8 @@ body {
     margin-bottom: 40px;
   }
   .header__buttons {
-    -moz-column-gap: 40px;
-         column-gap: 40px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
   }
   .widget {
     padding: 35px 30px;
@@ -1499,8 +1499,8 @@ body {
     line-height: 45px;
   }
   .btn-solid {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .btn-solid--view-more {
     padding-right: 35px;
@@ -1512,6 +1512,14 @@ body {
     width: 11px;
     height: 11px;
     background-size: 11px 11px;
+  }
+  .btn-video {
+    padding-left: 40px;
+  }
+  .btn-video::before {
+    background-size: 12px 12px;
+    width: 30px;
+    height: 30px;
   }
   .nav-mobile__content {
     justify-content: center;
