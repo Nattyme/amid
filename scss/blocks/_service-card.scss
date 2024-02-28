@@ -23,7 +23,7 @@
     height: 80px;
     background-color: #dbffe9;
     border-radius: 20px;
-    
+
     overflow: hidden;
     object-fit: cover;
     transition: box-shadow 0.1s ease-in;
@@ -57,6 +57,7 @@
     font-family: var(--font-third);
     font-size: 18px;
     line-height: 2;
+    color: var(--text-color);
 
     display: -webkit-box;
     -webkit-box-orient: vertical; // Если конец тсроки обрезан, то добавляет многоточие

@@ -36,6 +36,7 @@ $(document).ready(function(){
     // Запускаем карусель
     owl.owlCarousel({
         margin: 35,
+        dots: false,
         autoWidth:true,
         smartSpeed: 2000,
         loop: true,
