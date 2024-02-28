@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.carousel.min.css">
     <!--// owl carousel style -->
 
+    <!-- youtubelightbox style -->
+    <link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css">
+    <!--// youtubelightbox style -->
+
     <link rel="stylesheet" href="./css/main.css">
   </head>
 
@@ -107,7 +111,7 @@
                     <!-- btn -->
                     <div class="header__buttons">
                         <a href="#service" class="btn btn-solid">Get Started</a>
-                        <a href="https://www.youtube.com/watch?v=1HN2xjYl48Y" class="btn btn-video"><span>DEMO VIDEO</span></a>
+                        <a href="https://www.youtube.com/watch?v=1HN2xjYl48Y" data-youtubelightbox class="btn btn-video"><span>DEMO VIDEO</span></a>
                     </div>
                     <!--// btn -->
                 </div> 
@@ -690,11 +694,24 @@
 
     <!--// footer -->
 
+    <!--=== libs ===-->
+    <!-- Youtube LightBox -->
+    <div id="youtubelightbox" class="youtubelightbox">
+        <div class="youtubelightbox__centeredchild">
+            <div class="youtubelightbox__videowrapper">
+                <div id="youtubelightboxPlayer"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
+
     <!-- jquery -->
     <script src="./libs/jquery/jquery-3.7.1.min.js"></script>
 
     <!-- owl-carousel -->
     <script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
+    <!--=== libs ===-->
 
     <!-- custom js -->
     <script src="./js/index.js"></script>
