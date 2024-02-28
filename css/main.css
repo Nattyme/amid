@@ -577,8 +577,8 @@ body {
   width: 511px;
 }
 
-.achievements-card:not(:last-child) {
-  margin-bottom: 45px;
+.achievements-card + * {
+  margin-top: 45px;
 }
 
 .achievements-card__img {
@@ -1625,8 +1625,8 @@ body {
   .achievements-card:last-child {
     padding-top: 0;
   }
-  .achievements-card:not(:last-child) {
-    margin-bottom: 20px;
+  .achievements-card + * {
+    margin-top: 20px;
   }
   .achievements-card {
     max-width: 290px;

@@ -177,8 +177,8 @@
         padding-top: 0;
     }
 
-    .achievements-card:not(:last-child) {
-        margin-bottom: 20px;
+    .achievements-card + * {
+        margin-top: 20px;
     }
 
     .achievements-card {
