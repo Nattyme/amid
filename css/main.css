@@ -121,6 +121,11 @@ body {
   overflow: hidden;
 }
 
+.svg-ln, .svg-tw, .svg-sky, .svg-fb, .svg-inst {
+  width: 18px;
+  height: 18px;
+}
+
 .none {
   display: none !important;
 }
